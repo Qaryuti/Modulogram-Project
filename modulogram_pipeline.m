@@ -3,7 +3,9 @@ function modulogram_pipeline(config)
 %   MODULOGRAM_PIPELINE(CONFIG) loops over subjects and channels for a
 %   specified session and alignments. Helper functions live in src/.
 
-addpath('src');
+% Ensure helper functions in the src directory are on the MATLAB path
+scriptDir = fileparts(mfilename('fullpath'));
+addpath(fullfile(scriptDir, 'src'));
 
 % Default FIR filter order if not specified
 if ~isfield(config, 'fir_order')
