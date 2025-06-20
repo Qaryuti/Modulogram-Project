@@ -5,6 +5,11 @@ function modulogram_pipeline(config)
 
 addpath('src');
 
+% Default FIR filter order if not specified
+if ~isfield(config, 'fir_order')
+    config.fir_order = 1000;
+end
+
 subjectParams = struct( ...
     'EMU001', struct('num_sessions',3,'Fs',1000), ...
     'EMU024', struct('num_sessions',3,'Fs',2048), ...

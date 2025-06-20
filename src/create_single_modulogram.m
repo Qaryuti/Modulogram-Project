@@ -29,21 +29,21 @@ end
 align_times = round(align_times * Fs);
 nTrials = numel(align_times);
 
-% Filtering
-theta_full = butterworth_filter(data, Fs, config.modWaveRanges.Theta);
-comb_full = butterworth_filter(data, Fs, config.modulatedRange);
-stepSize = 3;
-bandwidth = 7.5;
-centerFreqs = config.modulatedRange(1):stepSize:config.modulatedRange(2);
+% Filtering using unified FIR implementation
+theta_full = apply_fir_filter(data, Fs, config.modWaveRanges.Theta, config.fir_order);
+comb_full  = apply_fir_filter(data, Fs, config.modulatedRange, config.fir_order);
+
+stepSize  = 3;  % Gamma band step size in Hz
+bandwidth = config.bandwidth;  % +/- range around each center frequency
+centerFreqs   = config.modulatedRange(1):stepSize:config.modulatedRange(2);
 numGammaBands = numel(centerFreqs);
-subBand_full = cell(1,numGammaBands);
-fir_order = 1000;
+subBand_full  = cell(1, numGammaBands);
+
 for iG = 1:numGammaBands
     cfreq = centerFreqs(iG);
-    lowBound = max(cfreq - bandwidth,1);
+    lowBound  = max(cfreq - bandwidth, 1);
     highBound = min(cfreq + bandwidth, Fs/2 - 1);
-    b = fir1(fir_order, [lowBound, highBound]/(Fs/2), 'bandpass', hamming(fir_order+1));
-    subBand_full{iG} = filtfilt(b,1,data);
+    subBand_full{iG} = apply_fir_filter(data, Fs, [lowBound, highBound], config.fir_order);
 end
 
 % Snip trials
