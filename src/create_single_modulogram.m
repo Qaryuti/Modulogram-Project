@@ -3,6 +3,11 @@ function outputStruct = create_single_modulogram(config, subjectID, sessionNum, 
 
 outputStruct = [];
 
+% Ensure debug mode flag exists
+if ~isfield(config, 'debug_mode')
+    config.debug_mode = false;
+end
+
 % Load channel data
 baseDir = fullfile(config.dataDir, '1_formatted');
 channelFile = fullfile(baseDir, subjectID, 'separate_channel_files', ...
@@ -38,6 +43,7 @@ bandwidth = config.bandwidth;  % +/- range around each center frequency
 centerFreqs   = config.modulatedRange(1):stepSize:config.modulatedRange(2);
 numGammaBands = numel(centerFreqs);
 subBand_full  = cell(1, numGammaBands);
+fprintf('Starting modulogram for CH%s (%s): %d trials and %d gamma bands\n', channelLabel, anatomicalRegion, nTrials, numGammaBands);
 
 for iG = 1:numGammaBands
     cfreq = centerFreqs(iG);
@@ -64,12 +70,24 @@ allAmplP_sub = zeros(numGammaBands, nTrials, config.numBins);
 allMI_sub = zeros(numGammaBands, nTrials);
 for iG = 1:numGammaBands
     for t = 1:nTrials
+        if config.debug_mode
+            fprintf(' → Processing trial %d/%d | Sub-band %d (%.1f Hz)\n', t, nTrials, iG, centerFreqs(iG));
+        end
+
         pac_trial.theta_wave = thetaSnips{t};
         pac_trial.constituent_gamma_waves = {subBandSnips{iG}{t}};
         pac_trial.center_freqs = centerFreqs(iG);
         [AmplP_trial, MI_trial, binCenters_trial, freq_array_trial] = compute_modulogram_analysis(pac_trial, Fs, config.numBins);
         allAmplP_sub(iG,t,:) = AmplP_trial;
         allMI_sub(iG,t) = MI_trial;
+
+        if config.debug_mode
+            figure(99); clf;
+            imagesc(binCenters_trial, centerFreqs, squeeze(allAmplP_sub(:, t, :)));
+            axis xy; colorbar;
+            title(sprintf('Live PAC Trial %d/%d - CH%s (%s)', t, nTrials, channelLabel, anatomicalRegion), 'Interpreter','none');
+            drawnow; pause(0.1);
+        end
     end
 end
 aggAmplP_sub = squeeze(mean(allAmplP_sub,2));
@@ -86,6 +104,8 @@ resultsDir = fullfile(config.resultsDir, subjectID, sprintf('Session_%d', sessio
 if ~exist(resultsDir,'dir'); mkdir(resultsDir); end
 outFile = fullfile(resultsDir, sprintf('CH%s_Modulogram.png', channelLabel));
 plot_modulogram_figure(finalAggAmplP, finalAggMI, binCenters_trial, centerFreqs, outFile, anatomicalRegion);
+
+fprintf('[✓] Completed channel %s (%s) with %d trials and %d gamma bands.\n', channelLabel, anatomicalRegion, nTrials, numGammaBands);
 
 outputStruct = struct( ...
     'MI_per_trial', allMI_sub, ...
