@@ -3,12 +3,6 @@ function modulogram_pipeline(config)
 %   MODULOGRAM_PIPELINE(CONFIG) loops over subjects and channels for a
 %   specified session and alignments. Helper functions live in src/.
 
-
-fprintf('\n==================== Pipeline Checkpoint 0 ====================\n');
-fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
-fprintf('=============================================================\n\n');
-
-
 % Ensure helper functions in the src directory are on the MATLAB path
 scriptDir = fileparts(mfilename('fullpath'));
 addpath(fullfile(scriptDir, 'src'));
@@ -17,11 +11,6 @@ addpath(fullfile(scriptDir, 'src'));
 if ~isfield(config, 'fir_order')
     config.fir_order = 1000;
 end
-
-
-fprintf('\n==================== Pipeline Checkpoint 1 ====================\n');
-fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
-fprintf('=============================================================\n\n');
 
 
 
@@ -92,7 +81,14 @@ fprintf('=============================================================\n\n');
             else
                 anatomicalRegion = 'Unknown';
             end
+
+                    fprintf('\n==================== Pipeline Checkpoint 4 ====================\n');
+                    fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
+                    fprintf('=============================================================\n\n');
             modStruct = create_single_modulogram(config, subjectID, sesnum, channelLabel, alignment, Fs, filters, trial_times, trial_words, anatomicalRegion);
+                    fprintf('\n==================== Pipeline Checkpoint 5 ====================\n');
+                    fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
+                    fprintf('=============================================================\n\n');
             if isempty(modStruct)
                 fprintf('    No valid trials for %s, Session %d, Channel %s\n', subjectID, sesnum, channelLabel);
                 continue;
