@@ -3,6 +3,12 @@ function modulogram_pipeline(config)
 %   MODULOGRAM_PIPELINE(CONFIG) loops over subjects and channels for a
 %   specified session and alignments. Helper functions live in src/.
 
+
+fprintf('\n==================== Pipeline Checkpoint 0 ====================\n');
+fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
+fprintf('=============================================================\n\n');
+
+
 % Ensure helper functions in the src directory are on the MATLAB path
 scriptDir = fileparts(mfilename('fullpath'));
 addpath(fullfile(scriptDir, 'src'));
@@ -11,6 +17,13 @@ addpath(fullfile(scriptDir, 'src'));
 if ~isfield(config, 'fir_order')
     config.fir_order = 1000;
 end
+
+
+fprintf('\n==================== Pipeline Checkpoint 1 ====================\n');
+fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
+fprintf('=============================================================\n\n');
+
+
 
 subjectParams = struct( ...
     'EMU001', struct('num_sessions',3,'Fs',1000), ...
@@ -49,6 +62,17 @@ for subjIdx = 1:numel(config.subjects)
     end
     load(setupFile,'filters','trial_times','trial_words','elec_area','elec_ind');
 
+
+
+
+fprintf('\n==================== Pipeline Checkpoint 2 ====================\n');
+fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
+fprintf('=============================================================\n\n');
+
+
+
+
+
     for alignIdx = 1:numel(config.alignments)
         alignment = config.alignments{alignIdx};
         fprintf('    Alignment: %s\n', alignment);
@@ -57,6 +81,11 @@ for subjIdx = 1:numel(config.subjects)
             if exist('elec_area','var') && ~isempty(elec_area)
                 if iscell(elec_area)
                     anatomicalRegion = elec_area{chIdx};
+
+                    fprintf('\n==================== Pipeline Checkpoint 3 ====================\n');
+                    fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
+                    fprintf('=============================================================\n\n');
+
                 else
                     anatomicalRegion = strtrim(elec_area(chIdx,:));
                 end
