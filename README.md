@@ -25,6 +25,8 @@ Most scripts expect data files that are not part of this repository (e.g., `loss
    execute2
    ```
    which will call `modulogram_pipeline(config)`.
+   Modulogram images for each channel are written to
+   `resultsDir/<Subject>/Session_<N>/<alignment>/CH###_<alignment>_Modulogram.png`.
 3. After modulograms are generated, use `config_stats.m` followed by `run_pac_stats.m` to compute summary statistics and plots.
 
 ## Requirements
