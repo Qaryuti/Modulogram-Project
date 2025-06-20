@@ -1,7 +1,7 @@
 function modulogram_pipeline(config)
 %MODULOGRAM_PIPELINE Orchestrate modulogram computation for one session.
 %   MODULOGRAM_PIPELINE(CONFIG) loops over subjects and channels for a
-%   specified session and alignments. Helper functions live in src/.
+%   specified session and alignments. Helper functions live in src.
 
 % Ensure helper functions in the src directory are on the MATLAB path
 scriptDir = fileparts(mfilename('fullpath'));
@@ -12,7 +12,18 @@ if ~isfield(config, 'fir_order')
     config.fir_order = 1000;
 end
 
+% Enable optional debug mode for verbose logging and plotting
+if ~isfield(config, 'debug_mode')
+    config.debug_mode = false;
+end
 
+fprintf('===== Modulogram Pipeline =====\n');
+fprintf('Subjects: %d\n', numel(config.subjects));
+fprintf('Session : %d\n', config.sessionNum);
+fprintf('Alignments: %s\n', strjoin(config.alignments, ', '));
+if config.debug_mode
+    fprintf('Debug mode ENABLED - real time figures will be displayed.\n');
+end
 
 subjectParams = struct( ...
     'EMU001', struct('num_sessions',3,'Fs',1000), ...
@@ -37,44 +48,29 @@ for subjIdx = 1:numel(config.subjects)
     end
     Fs = subjectParams.(subjectID).Fs;
     sesnum = config.sessionNum;
-    fprintf('Processing Subject: %s | Session: %d\n', subjectID, sesnum);
+    fprintf('\n=== [%d/%d] Subject %s | Session %d ===\n', subjIdx, numel(config.subjects), subjectID, sesnum);
 
-    data_base_dir = fullfile(config.dataDir,'1_formatted');
-    if strcmpi(config.reference,'Ground')
+    data_base_dir = fullfile(config.dataDir, '1_formatted');
+    if strcmpi(config.reference, 'Ground')
         setupFile = fullfile(data_base_dir, subjectID, sprintf('%s_MAD_SES%d_Setup.mat', subjectID, sesnum));
     else
         setupFile = fullfile(data_base_dir, subjectID, sprintf('%s_MAD_SES%d_Setup_%s.mat', subjectID, sesnum, config.reference));
     end
-    if ~exist(setupFile,'file')
+    if ~exist(setupFile, 'file')
         fprintf('    Setup file missing for %s, Session %d\n', subjectID, sesnum);
         continue;
     end
-    load(setupFile,'filters','trial_times','trial_words','elec_area','elec_ind');
-
-
-
-
-fprintf('\n==================== Pipeline Checkpoint 2 ====================\n');
-fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
-fprintf('=============================================================\n\n');
-
-
-
-
+    load(setupFile, 'filters', 'trial_times', 'trial_words', 'elec_area', 'elec_ind');
+    fprintf('  Loaded setup: %d channels\n', numel(elec_ind));
 
     for alignIdx = 1:numel(config.alignments)
         alignment = config.alignments{alignIdx};
-        fprintf('    Alignment: %s\n', alignment);
+        fprintf('  -> Alignment %d/%d: %s\n', alignIdx, numel(config.alignments), alignment);
         for chIdx = 1:numel(elec_ind)
             channelLabel = sprintf('%03d', elec_ind(chIdx));
             if exist('elec_area','var') && ~isempty(elec_area)
                 if iscell(elec_area)
                     anatomicalRegion = elec_area{chIdx};
-
-                    fprintf('\n==================== Pipeline Checkpoint 3 ====================\n');
-                    fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
-                    fprintf('=============================================================\n\n');
-
                 else
                     anatomicalRegion = strtrim(elec_area(chIdx,:));
                 end
@@ -82,15 +78,10 @@ fprintf('=============================================================\n\n');
                 anatomicalRegion = 'Unknown';
             end
 
-                    fprintf('\n==================== Pipeline Checkpoint 4 ====================\n');
-                    fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
-                    fprintf('=============================================================\n\n');
+            fprintf('    -> Channel %s (%s) [%d/%d]\n', channelLabel, anatomicalRegion, chIdx, numel(elec_ind));
             modStruct = create_single_modulogram(config, subjectID, sesnum, channelLabel, alignment, Fs, filters, trial_times, trial_words, anatomicalRegion);
-                    fprintf('\n==================== Pipeline Checkpoint 5 ====================\n');
-                    fprintf('[✓] Modulogram pipeline successfully executed for %s | Session %d\n', subjectID, sesnum);
-                    fprintf('=============================================================\n\n');
             if isempty(modStruct)
-                fprintf('    No valid trials for %s, Session %d, Channel %s\n', subjectID, sesnum, channelLabel);
+                fprintf('       [!] No valid trials for %s, Session %d, Channel %s\n', subjectID, sesnum, channelLabel);
                 continue;
             end
             chanField = ['CH' channelLabel];
