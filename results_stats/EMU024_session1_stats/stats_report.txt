@@ -1,0 +1,11 @@
+Subject: EMU024 | Session: 1
+Paired t-test (Loss vs Win)
+  t-statistic: 3.3746
+  df: 137
+  p-value: 9.6162e-04
+  Conclusion: Significant difference in MI between conditions (t-test).
+
+Wilcoxon signed-rank test:
+  Signed-rank statistic (W): 6298
+  p-value: 1.4068e-03
+  Conclusion: Significant difference in MI between conditions (Wilcoxon).
