@@ -100,9 +100,9 @@ end
 finalAggAmplP = normalized_aggAmplP_sub;
 finalAggMI = aggMI_sub;
 
-resultsDir = fullfile(config.resultsDir, subjectID, sprintf('Session_%d', sessionNum));
+resultsDir = fullfile(config.resultsDir, subjectID, sprintf('Session_%d', sessionNum), alignment);
 if ~exist(resultsDir,'dir'); mkdir(resultsDir); end
-outFile = fullfile(resultsDir, sprintf('CH%s_Modulogram.png', channelLabel));
+outFile = fullfile(resultsDir, sprintf('CH%s_%s_Modulogram.png', channelLabel, alignment));
 plot_modulogram_figure(finalAggAmplP, finalAggMI, binCenters_trial, centerFreqs, outFile, anatomicalRegion);
 
 fprintf('[✓] Completed channel %s (%s) with %d trials and %d gamma bands.\n', channelLabel, anatomicalRegion, nTrials, numGammaBands);
