@@ -34,7 +34,7 @@ Most scripts expect data files that are not part of this repository (e.g., `loss
 4. To analyze modulograms for subject EMU024 across three sessions, use
    `analyze_EMU024_sessions(baseDir, outDir)`. The optional `outDir`
    argument allows writing results to a custom directory (defaults to
-   `fullfile(baseDir, 'analysis')`).
+   `fullfile(baseDir, 'EMU024_analysis')`).
 
 ## Requirements
 
