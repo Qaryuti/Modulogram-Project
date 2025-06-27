@@ -1,0 +1,169 @@
+[2025-06-27 04:49:56] 
+=== Starting analysis for Session 1 ===
+[2025-06-27 04:49:56] Found 138 channels. Listing regions...
+[2025-06-27 04:49:56]   CH057 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH056 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH055 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH054 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH053 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH052 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH051 - Anterior Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH050 - Insula
+[2025-06-27 04:49:56]   CH049 - WM (Temporal Stem)*
+[2025-06-27 04:49:56]   CH048 - WM (Temporal Stem)*
+[2025-06-27 04:49:56]   CH047 - WM (Temporal Stem)*
+[2025-06-27 04:49:56]   CH046 - Amygdala
+[2025-06-27 04:49:56]   CH045 - Amygdala
+[2025-06-27 04:49:56]   CH044 - Amygdala
+[2025-06-27 04:49:56]   CH043 - Amygdala
+[2025-06-27 04:49:56]   CH042 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH041 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH040 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH039 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH038 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH037 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH036 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH035 - WM
+[2025-06-27 04:49:56]   CH034 - WM
+[2025-06-27 04:49:56]   CH033 - WM
+[2025-06-27 04:49:56]   CH032 - Hippocampus Head
+[2025-06-27 04:49:56]   CH031 - Hippocampus Head
+[2025-06-27 04:49:56]   CH030 - Hippocampus Head
+[2025-06-27 04:49:56]   CH029 - Hippocampus Head
+[2025-06-27 04:49:56]   CH028 - Hippocampus Head
+[2025-06-27 04:49:56]   CH027 - Posterior Superior Temporal Sulcus
+[2025-06-27 04:49:56]   CH026 - Posterior Superior Temporal Sulcus
+[2025-06-27 04:49:56]   CH025 - Posterior Superior Temporal Sulcus
+[2025-06-27 04:49:56]   CH024 - Posterior Superior Temporal Sulcus
+[2025-06-27 04:49:56]   CH023 - Posterior Superior Temporal Sulcus
+[2025-06-27 04:49:56]   CH022 - Posterior Superior Temporal Sulcus
+[2025-06-27 04:49:56]   CH021 - WM
+[2025-06-27 04:49:56]   CH020 - WM
+[2025-06-27 04:49:56]   CH019 - WM
+[2025-06-27 04:49:56]   CH018 - Hippocampus Tail
+[2025-06-27 04:49:56]   CH017 - Hippocampus Tail
+[2025-06-27 04:49:56]   CH016 - Posterior Parahippocampal
+[2025-06-27 04:49:56]   CH015 - Posterior Parahippocampal
+[2025-06-27 04:49:56]   CH014 - Posterior Parahippocampal
+[2025-06-27 04:49:56]   CH013 - Posterior Parahippocampal
+[2025-06-27 04:49:56]   CH069 - Inferior Temporal Sulcus
+[2025-06-27 04:49:56]   CH068 - Inferior Temporal Sulcus
+[2025-06-27 04:49:56]   CH067 - Inferior Temporal Sulcus
+[2025-06-27 04:49:56]   CH066 - Fusiform Gyrus
+[2025-06-27 04:49:56]   CH065 - Fusiform Gyrus
+[2025-06-27 04:49:56]   CH064 - Fusiform Gyrus
+[2025-06-27 04:49:56]   CH063 - Collateral Sulcus
+[2025-06-27 04:49:56]   CH062 - Collateral Sulcus
+[2025-06-27 04:49:56]   CH061 - Collateral Sulcus
+[2025-06-27 04:49:56]   CH060 - Entorhinal Cortex
+[2025-06-27 04:49:56]   CH059 - Entorhinal Cortex
+[2025-06-27 04:49:56]   CH058 - Entorhinal Cortex
+[2025-06-27 04:49:56]   CH012 - Basal Inferior Temporal Gyrus
+[2025-06-27 04:49:56]   CH011 - Basal Inferior Temporal Gyrus
+[2025-06-27 04:49:56]   CH010 - Basal Inferior Temporal Gyrus
+[2025-06-27 04:49:56]   CH009 - Basal Inferior Temporal Gyrus
+[2025-06-27 04:49:56]   CH008 - Basal Inferior Temporal Gyrus
+[2025-06-27 04:49:56]   CH007 - Basal Inferior Temporal Gyrus
+[2025-06-27 04:49:56]   CH006 - Temporal Occipital Sulcus*
+[2025-06-27 04:49:56]   CH005 - Fusiform Gyrus
+[2025-06-27 04:49:56]   CH004 - Fusiform Gyrus
+[2025-06-27 04:49:56]   CH003 - Fusiform Gyrus
+[2025-06-27 04:49:56]   CH002 - Parahippocampal
+[2025-06-27 04:49:56]   CH001 - Parahippocampal
+[2025-06-27 04:49:56]   CH079 - Out
+[2025-06-27 04:49:56]   CH078 - Out
+[2025-06-27 04:49:56]   CH077 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH076 - Middle Temporal Gyrus
+[2025-06-27 04:49:56]   CH075 - Temporal Pole*
+[2025-06-27 04:49:56]   CH074 - Temporal Pole*
+[2025-06-27 04:49:56]   CH073 - Temporal Pole*
+[2025-06-27 04:49:56]   CH072 - Temporal Pole*
+[2025-06-27 04:49:56]   CH071 - Temporal Pole*
+[2025-06-27 04:49:56]   CH070 - Temporal Pole*
+[2025-06-27 04:49:56]   CH094 - Planum Polare
+[2025-06-27 04:49:56]   CH093 - Planum Polare
+[2025-06-27 04:49:56]   CH092 - Planum Polare
+[2025-06-27 04:49:56]   CH091 - Planum Polare
+[2025-06-27 04:49:56]   CH090 - Sylvian Fissure
+[2025-06-27 04:49:56]   CH089 - Ventral Insula
+[2025-06-27 04:49:56]   CH088 - Ventral Insula
+[2025-06-27 04:49:56]   CH087 - Ventral Insula
+[2025-06-27 04:49:56]   CH086 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH085 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH084 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH083 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH082 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH081 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH080 - Posterior Orbitofrontal
+[2025-06-27 04:49:56]   CH102 - Planum Polare
+[2025-06-27 04:49:56]   CH101 - Planum Polare
+[2025-06-27 04:49:56]   CH100 - Planum Polare
+[2025-06-27 04:49:56]   CH099 - Planum Polare
+[2025-06-27 04:49:56]   CH098 - Sylvian Fissure
+[2025-06-27 04:49:56]   CH097 - Ventral Insula
+[2025-06-27 04:49:56]   CH096 - Ventral Insula
+[2025-06-27 04:49:56]   CH095 - Ventral Insula
+[2025-06-27 04:49:56]   CH120 - Out
+[2025-06-27 04:49:56]   CH119 - Planum Temporale
+[2025-06-27 04:49:56]   CH118 - Planum Temporale
+[2025-06-27 04:49:56]   CH117 - Planum Temporale
+[2025-06-27 04:49:56]   CH116 - Planum Temporale
+[2025-06-27 04:49:56]   CH115 - Planum Temporale
+[2025-06-27 04:49:56]   CH114 - Planum Temporale
+[2025-06-27 04:49:56]   CH113 - Heschl's Gyrus
+[2025-06-27 04:49:56]   CH112 - Heschl's Gyrus
+[2025-06-27 04:49:56]   CH111 - Heschl's Gyrus
+[2025-06-27 04:49:56]   CH110 - Heschl's Gyrus
+[2025-06-27 04:49:56]   CH109 - Posterior Insula
+[2025-06-27 04:49:56]   CH108 - WM
+[2025-06-27 04:49:56]   CH107 - WM
+[2025-06-27 04:49:56]   CH106 - Pulvinar
+[2025-06-27 04:49:56]   CH105 - Pulvinar
+[2025-06-27 04:49:56]   CH104 - Pulvinar
+[2025-06-27 04:49:56]   CH103 - Pulvinar
+[2025-06-27 04:49:56]   CH138 - WM
+[2025-06-27 04:49:56]   CH137 - WM
+[2025-06-27 04:49:56]   CH136 - WM
+[2025-06-27 04:49:56]   CH135 - WM
+[2025-06-27 04:49:56]   CH134 - WM
+[2025-06-27 04:49:56]   CH133 - WM
+[2025-06-27 04:49:56]   CH132 - WM
+[2025-06-27 04:49:56]   CH131 - WM
+[2025-06-27 04:49:56]   CH130 - WM
+[2025-06-27 04:49:56]   CH129 - WM
+[2025-06-27 04:49:56]   CH128 - WM
+[2025-06-27 04:49:56]   CH127 - WM
+[2025-06-27 04:49:56]   CH126 - WM
+[2025-06-27 04:49:56]   CH125 - WM
+[2025-06-27 04:49:56]   CH124 - WM
+[2025-06-27 04:49:56]   CH123 - Posterior Cingulate
+[2025-06-27 04:49:56]   CH122 - Posterior Cingulate
+[2025-06-27 04:49:56]   CH121 - Posterior Cingulate
+[2025-06-27 04:49:58] Top 10 channels by AUC:
+[2025-06-27 04:49:58]   CH014 = 70.2396
+[2025-06-27 04:49:58]   CH070 = 68.1281
+[2025-06-27 04:49:58]   CH020 = 67.5299
+[2025-06-27 04:49:58]   CH021 = 66.9183
+[2025-06-27 04:49:58]   CH087 = 66.9037
+[2025-06-27 04:49:58]   CH071 = 66.8240
+[2025-06-27 04:49:58]   CH044 = 66.5072
+[2025-06-27 04:49:58]   CH003 = 65.1638
+[2025-06-27 04:49:58]   CH025 = 64.4833
+[2025-06-27 04:49:58]   CH030 = 64.4632
+[2025-06-27 04:49:58] Posterior Cingulate channels: CH123, CH122, CH121
+[2025-06-27 04:49:59] Session 1 vs 2 Spearman rho: 1.0000
+[2025-06-27 04:49:59] Session 1 vs 3 Spearman rho: 1.0000
+[2025-06-27 04:50:01] Saved figure: Desktop/modulogram_V7/trial-run-3/EMU024_analysis/MI_across_sessions.png
+[2025-06-27 04:50:01] Saved figure: Desktop/modulogram_V7/trial-run-3/EMU024_analysis/MI_band_boxplot.png
+[2025-06-27 04:50:01] Band statistics:
+[2025-06-27 04:50:01]   30-50 Hz mean=0.5987 std=0.0222
+[2025-06-27 04:50:01]   50-70 Hz mean=0.6032 std=0.0233
+[2025-06-27 04:50:01]   70-90 Hz mean=0.6040 std=0.0173
+[2025-06-27 04:50:01]   90-110 Hz mean=0.6018 std=0.0312
+[2025-06-27 04:50:03] Saved ROI figure: Desktop/modulogram_V7/trial-run-3/EMU024_analysis/ROI_PosteriorCingulate.png
+[2025-06-27 04:50:03] ROI channels this session: CH123, CH122, CH121
+[2025-06-27 04:50:04] MI drift slope=0.016970 p=NaN
+[2025-06-27 04:50:05] Saved cluster figure: Desktop/modulogram_V7/trial-run-3/EMU024_analysis/MI_clusters.png
+[2025-06-27 04:50:05] Cluster 1 center: [0.5806 0.579 0.5869 0.5784 0.5918 0.5851 0.5939 0.5761 0.5833 0.6021 0.5782 0.6195 0.5989 0.5957 0.6021 0.5958 0.6019 0.5883 0.5876 0.5892 0.5966 0.5784 0.5881 0.5949 0.5867 0.5872 0.5923 0.5875 0.5835 0.582 0.5974]
+[2025-06-27 04:50:05] Cluster 2 center: [0.603 0.614 0.6376 0.6249 0.6207 0.621 0.6222 0.6258 0.627 0.655 0.6028 0.6373 0.6223 0.627 0.6156 0.6248 0.6323 0.6469 0.6209 0.617 0.6148 0.6279 0.6372 0.6197 0.6147 0.6138 0.6137 0.614 0.6297 0.6058 0.6252]
+[2025-06-27 04:50:05] Analysis completed successfully at 27-Jun-2025 04:50:05

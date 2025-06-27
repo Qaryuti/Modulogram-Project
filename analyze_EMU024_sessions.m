@@ -15,7 +15,7 @@ function analyze_EMU024_sessions(baseDir, outDir)
 %       analyze_EMU024_sessions('trial-run-3', 'trial-run-3/analysis');
 
 if nargin < 1
-    baseDir = 'trial-run-3';
+    baseDir = 'Desktop/modulogram_V7/trial-run-3';
 end
 if nargin < 2 || isempty(outDir)
     outDir = fullfile(baseDir, 'EMU024_analysis');
