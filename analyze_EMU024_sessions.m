@@ -246,9 +246,16 @@ for i = 1:numel(trialMI)
         continue; end
     nTrials = size(trialMI{i}, 2);
     meanPerTrial = mean(trialMI{i}, 1, 'omitnan');
-    mdl = fitlm((1:nTrials)', meanPerTrial');
-    slope = mdl.Coefficients.Estimate(2);
-    pval  = mdl.Coefficients.pValue(2);
+    trialIdx = 1:nTrials;
+    validIdx = ~isnan(meanPerTrial);
+    if sum(validIdx) > 1
+        mdl = fitlm(trialIdx(validIdx)', meanPerTrial(validIdx)');
+        slope = mdl.Coefficients.Estimate(2);
+        pval  = mdl.Coefficients.pValue(2);
+    else
+        slope = NaN;
+        pval  = NaN;
+    end
     note = '';
     if pval < 0.05
         note = ' **SIGNIFICANT**';
