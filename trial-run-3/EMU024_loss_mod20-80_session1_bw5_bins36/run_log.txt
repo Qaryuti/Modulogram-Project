@@ -1,0 +1,9 @@
+
+--- Run started at 27-Jun-2025 18:20:57 ---
+Subject: EMU024
+Alignment: loss
+Session: 1
+Modulated Range: [20 80]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_loss_mod20-80_session1_bw5_bins36

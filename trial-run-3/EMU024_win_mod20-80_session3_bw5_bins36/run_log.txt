@@ -1,0 +1,10 @@
+
+--- Run started at 27-Jun-2025 07:56:37 ---
+Subject: EMU024
+Alignment: win
+Session: 3
+Modulated Range: [20 80]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod20-80_session3_bw5_bins36
+✓ Completed successfully at 27-Jun-2025 09:21:24
