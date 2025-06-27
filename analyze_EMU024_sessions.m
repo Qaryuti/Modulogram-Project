@@ -1,27 +1,31 @@
-function analyze_EMU024_sessions(baseDir)
+function analyze_EMU024_sessions(baseDir, outDir)
 % ANALYZE_EMU024_SESSIONS Analyze modulogram outputs for EMU024 across three sessions.
-%   analyze_EMU024_sessions(BASEDIR) expects BASEDIR to contain folders
+%   analyze_EMU024_sessions(BASEDIR, OUTDIR) expects BASEDIR to contain folders
 %   produced by batch_modulogram.m for EMU024 sessions 1-3 with the win
 %   alignment. Each folder must include an AUC_ranking.txt file under
 %   EMU024/Session_N and a corresponding EMU024_sessionN_struct.mat file.
-%   Results are written to an "analysis" subfolder inside BASEDIR.
+%   Results are written to OUTDIR, which defaults to an "analysis" subfolder
+%   inside BASEDIR if not specified.
 %
 %   The script logs progress and errors to analysis_log_sessionN.txt for
 %   each session and saves summary figures and correlation tables in the
 %   analysis folder.
 %
 %   Example:
-%       analyze_EMU024_sessions('trial-run-3');
+%       analyze_EMU024_sessions('trial-run-3', 'trial-run-3/analysis');
 
 if nargin < 1
     baseDir = 'trial-run-3';
+end
+if nargin < 2 || isempty(outDir)
+    outDir = fullfile(baseDir, 'EMU024_analysis');
 end
 
 subjectID    = 'EMU024';
 sessionNums  = 1:3;
 sessionDirs  = arrayfun(@(n) fullfile(baseDir, sprintf('%s_win_mod30-120_session%d_bw5_bins36', subjectID, n)), ...
                         sessionNums, 'UniformOutput', false);
-analysisDir  = fullfile(baseDir, 'analysis');
+analysisDir  = outDir;
 if ~exist(analysisDir, 'dir'); mkdir(analysisDir); end
 
 %% Storage for later comparisons
@@ -46,18 +50,18 @@ for i = 1:numel(sessionNums)
     structFile = fullfile(sesDir, sprintf('%s_session%d_struct.mat', subjectID, ses));
     if ~exist(structFile, 'file')
         logf(logFID, 'Struct file missing: %s\n', structFile);
-        fclose(logFID); continue; end
+        fclose(logFID); logFIDs(i) = -1; continue; end
     try
         data = load(structFile);
     catch ME
         logf(logFID, 'Error loading struct: %s\n', ME.message);
-        fclose(logFID); continue;
+        fclose(logFID); logFIDs(i) = -1; continue;
     end
     try
         sessStruct = data.allData.(subjectID).session(ses).alignment.win.channel;
     catch ME
         logf(logFID, 'Malformed structure: %s\n', ME.message);
-        fclose(logFID); continue;
+        fclose(logFID); logFIDs(i) = -1; continue;
     end
     chNames = fieldnames(sessStruct);
     logf(logFID, 'Found %d channels. Listing regions...\n', numel(chNames));
@@ -123,7 +127,7 @@ for i = 1:numel(sessionNums)
         roiChLabels{i} = {};
     end
 
-    fclose(logFID);
+    % keep logFID open for cross-session summaries
 end
 
 %% --- Correlations of top AUCs ---
@@ -151,14 +155,19 @@ fclose(cfid);
 %% --- MI curves across sessions ---
 fig = figure('Visible','off'); hold on;
 cols = lines(numel(meanMI));
+anyLines = false;
 for i = 1:numel(meanMI)
     if ~isempty(meanMI{i})
-        plot(freqs, meanMI{i}, 'Color', cols(i,:), 'LineWidth', 2);
+        plot(freqs, meanMI{i}, 'Color', cols(i,:), 'LineWidth', 2, ...
+            'DisplayName', sprintf('Session %d', sessionNums(i)));
+        anyLines = true;
     end
 end
 xlabel('Gamma Frequency (Hz)');
 ylabel('Mean MI');
-legend(arrayfun(@(s) sprintf('Session %d', s), sessionNums, 'UniformOutput', false));
+if anyLines
+    legend('Location','best');
+end
 title('MI Across Sessions');
 miCurveFile = fullfile(analysisDir, 'MI_across_sessions.png');
 saveas(fig, miCurveFile); close(fig);
