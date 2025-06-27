@@ -6,8 +6,11 @@ function run_pac_stats(config)
     subjectID = config.subjectID;
     sesnum    = config.sessionNum;
 
-    lossStruct = lossData.allData.(subjectID).session(sesnum).alignment.loss.channel;
-    winStruct  = winData.allData.(subjectID).session(sesnum).alignment.win.channel;
+    % Support both 'channel' and 'channels' field names
+    alignLoss = lossData.allData.(subjectID).session(sesnum).alignment.loss;
+    alignWin  = winData.allData.(subjectID).session(sesnum).alignment.win;
+    if isfield(alignLoss, 'channel'); lossStruct = alignLoss.channel; else; lossStruct = alignLoss.channels; end
+    if isfield(alignWin, 'channel');  winStruct  = alignWin.channel;  else; winStruct  = alignWin.channels;  end
 
     lossChs = fieldnames(lossStruct);
     winChs  = fieldnames(winStruct);
