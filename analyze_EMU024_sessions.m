@@ -58,7 +58,14 @@ for i = 1:numel(sessionNums)
         fclose(logFID); logFIDs(i) = -1; continue;
     end
     try
-        sessStruct = data.allData.(subjectID).session(ses).alignment.win.channel;
+        alignWin = data.allData.(subjectID).session(ses).alignment.win;
+        if isfield(alignWin, 'channel');
+            sessStruct = alignWin.channel;
+        elseif isfield(alignWin, 'channels');
+            sessStruct = alignWin.channels;
+        else
+            error('No channel data found');
+        end
     catch ME
         logf(logFID, 'Malformed structure: %s\n', ME.message);
         fclose(logFID); logFIDs(i) = -1; continue;

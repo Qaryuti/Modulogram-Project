@@ -5,7 +5,14 @@ function render_single_from_struct_file(structFile, subjectID, channelLabel, out
     % Navigate to the correct nested struct
     try
         channelField = ['CH' channelLabel];  % e.g., 'CH057'
-        resultStruct = s.allData.(subjectID).session.alignment.win.channel.(channelField);
+        alignWin = s.allData.(subjectID).session.alignment.win;
+        if isfield(alignWin, 'channel')
+            resultStruct = alignWin.channel.(channelField);
+        elseif isfield(alignWin, 'channels')
+            resultStruct = alignWin.channels.(channelField);
+        else
+            error('No channel data found');
+        end
     catch
         error('Channel %s not found in struct at expected location.', channelField);
     end

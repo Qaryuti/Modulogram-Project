@@ -97,6 +97,8 @@ for subjIdx = 1:numel(config.subjects)
             end
             chanField = ['CH' channelLabel];
             allData.(subjectID).session(sesnum).alignment.(alignment).channel.(chanField) = modStruct;
+            % Provide backward-compatible field name expected by other pipelines
+            allData.(subjectID).session(sesnum).alignment.(alignment).channels.(chanField) = modStruct;
         end
     end
     subjectFile = fullfile(config.resultsDir, sprintf('%s_session%d_struct.mat', subjectID, sesnum));
