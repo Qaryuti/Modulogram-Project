@@ -18,7 +18,7 @@ if nargin < 1
     baseDir = 'trial-run-3';
 end
 if nargin < 2 || isempty(outDir)
-    outDir = fullfile(baseDir, 'analysis');
+    outDir = fullfile(baseDir, 'EMU024_analysis');
 end
 
 subjectID    = 'EMU024';
@@ -155,14 +155,19 @@ fclose(cfid);
 %% --- MI curves across sessions ---
 fig = figure('Visible','off'); hold on;
 cols = lines(numel(meanMI));
+anyLines = false;
 for i = 1:numel(meanMI)
     if ~isempty(meanMI{i})
-        plot(freqs, meanMI{i}, 'Color', cols(i,:), 'LineWidth', 2);
+        plot(freqs, meanMI{i}, 'Color', cols(i,:), 'LineWidth', 2, ...
+            'DisplayName', sprintf('Session %d', sessionNums(i)));
+        anyLines = true;
     end
 end
 xlabel('Gamma Frequency (Hz)');
 ylabel('Mean MI');
-legend(arrayfun(@(s) sprintf('Session %d', s), sessionNums, 'UniformOutput', false));
+if anyLines
+    legend('Location','best');
+end
 title('MI Across Sessions');
 miCurveFile = fullfile(analysisDir, 'MI_across_sessions.png');
 saveas(fig, miCurveFile); close(fig);
