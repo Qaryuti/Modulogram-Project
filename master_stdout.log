@@ -1,0 +1,1413 @@
+nohup: ignoring input
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2023 The MathWorks, Inc.
+             R2023b Update 7 (23.2.0.2515942) 64-bit (glnxa64)
+                              January 30, 2024
+
+ 
+To get started, type doc.
+For product information, visit www.mathworks.com.
+ 
+
+--- Run started at 26-Jun-2025 17:48:19 ---
+Subject: EMU024
+Alignment: win
+Session: 1
+Modulated Range: [30 120]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session1_bw5_bins36
+[2025-06-26 17:48:19] ===== Modulogram Pipeline =====
+[2025-06-26 17:48:19] Subjects: 1
+[2025-06-26 17:48:19] Session : 1
+[2025-06-26 17:48:19] Alignments: win
+[2025-06-26 17:48:19] 
+=== [1/1] Subject EMU024 | Session 1 ===
+[2025-06-26 17:48:19]   Loaded setup: 138 channels
+[2025-06-26 17:48:19]   -> Alignment 1/1: win
+[2025-06-26 17:48:19]     -> Channel 057 (Anterior Middle Temporal Gyrus) [1/138]
+Starting modulogram for CH057 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+Fontconfig warning: "/usr/share/fontconfig/conf.avail/05-reset-dirs-sample.conf", line 6: unknown element "reset-dirs"
+[✓] Completed channel 057 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 17:50:26]     -> Channel 056 (Anterior Middle Temporal Gyrus) [2/138]
+Starting modulogram for CH056 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 056 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 17:52:18]     -> Channel 055 (Anterior Middle Temporal Gyrus) [3/138]
+Starting modulogram for CH055 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 055 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 17:54:09]     -> Channel 054 (Anterior Middle Temporal Gyrus) [4/138]
+Starting modulogram for CH054 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 054 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 17:56:00]     -> Channel 053 (Anterior Middle Temporal Gyrus) [5/138]
+Starting modulogram for CH053 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 053 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 17:57:53]     -> Channel 052 (Anterior Middle Temporal Gyrus) [6/138]
+Starting modulogram for CH052 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 052 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 17:59:43]     -> Channel 051 (Anterior Middle Temporal Gyrus) [7/138]
+Starting modulogram for CH051 (Anterior Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 051 (Anterior Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:01:35]     -> Channel 050 (Insula) [8/138]
+Starting modulogram for CH050 (Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 050 (Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 18:03:27]     -> Channel 049 (WM (Temporal Stem)*) [9/138]
+Starting modulogram for CH049 (WM (Temporal Stem)*): 2 trials and 31 gamma bands
+[✓] Completed channel 049 (WM (Temporal Stem)*) with 2 trials and 31 gamma bands.
+[2025-06-26 18:05:20]     -> Channel 048 (WM (Temporal Stem)*) [10/138]
+Starting modulogram for CH048 (WM (Temporal Stem)*): 2 trials and 31 gamma bands
+[✓] Completed channel 048 (WM (Temporal Stem)*) with 2 trials and 31 gamma bands.
+[2025-06-26 18:07:12]     -> Channel 047 (WM (Temporal Stem)*) [11/138]
+Starting modulogram for CH047 (WM (Temporal Stem)*): 2 trials and 31 gamma bands
+[✓] Completed channel 047 (WM (Temporal Stem)*) with 2 trials and 31 gamma bands.
+[2025-06-26 18:09:03]     -> Channel 046 (Amygdala) [12/138]
+Starting modulogram for CH046 (Amygdala): 2 trials and 31 gamma bands
+[✓] Completed channel 046 (Amygdala) with 2 trials and 31 gamma bands.
+[2025-06-26 18:10:54]     -> Channel 045 (Amygdala) [13/138]
+Starting modulogram for CH045 (Amygdala): 2 trials and 31 gamma bands
+[✓] Completed channel 045 (Amygdala) with 2 trials and 31 gamma bands.
+[2025-06-26 18:12:45]     -> Channel 044 (Amygdala) [14/138]
+Starting modulogram for CH044 (Amygdala): 2 trials and 31 gamma bands
+[✓] Completed channel 044 (Amygdala) with 2 trials and 31 gamma bands.
+[2025-06-26 18:14:35]     -> Channel 043 (Amygdala) [15/138]
+Starting modulogram for CH043 (Amygdala): 2 trials and 31 gamma bands
+[✓] Completed channel 043 (Amygdala) with 2 trials and 31 gamma bands.
+[2025-06-26 18:16:26]     -> Channel 042 (Middle Temporal Gyrus) [16/138]
+Starting modulogram for CH042 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 042 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:18:18]     -> Channel 041 (Middle Temporal Gyrus) [17/138]
+Starting modulogram for CH041 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 041 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:20:09]     -> Channel 040 (Middle Temporal Gyrus) [18/138]
+Starting modulogram for CH040 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 040 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:21:59]     -> Channel 039 (Middle Temporal Gyrus) [19/138]
+Starting modulogram for CH039 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 039 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:23:50]     -> Channel 038 (Middle Temporal Gyrus) [20/138]
+Starting modulogram for CH038 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 038 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:25:41]     -> Channel 037 (Middle Temporal Gyrus) [21/138]
+Starting modulogram for CH037 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 037 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:27:34]     -> Channel 036 (Middle Temporal Gyrus) [22/138]
+Starting modulogram for CH036 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 036 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:29:25]     -> Channel 035 (WM) [23/138]
+Starting modulogram for CH035 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 035 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 18:31:16]     -> Channel 034 (WM) [24/138]
+Starting modulogram for CH034 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 034 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 18:33:07]     -> Channel 033 (WM) [25/138]
+Starting modulogram for CH033 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 033 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 18:34:59]     -> Channel 032 (Hippocampus Head) [26/138]
+Starting modulogram for CH032 (Hippocampus Head): 2 trials and 31 gamma bands
+[✓] Completed channel 032 (Hippocampus Head) with 2 trials and 31 gamma bands.
+[2025-06-26 18:36:50]     -> Channel 031 (Hippocampus Head) [27/138]
+Starting modulogram for CH031 (Hippocampus Head): 2 trials and 31 gamma bands
+[✓] Completed channel 031 (Hippocampus Head) with 2 trials and 31 gamma bands.
+[2025-06-26 18:38:40]     -> Channel 030 (Hippocampus Head) [28/138]
+Starting modulogram for CH030 (Hippocampus Head): 2 trials and 31 gamma bands
+[✓] Completed channel 030 (Hippocampus Head) with 2 trials and 31 gamma bands.
+[2025-06-26 18:40:32]     -> Channel 029 (Hippocampus Head) [29/138]
+Starting modulogram for CH029 (Hippocampus Head): 2 trials and 31 gamma bands
+[✓] Completed channel 029 (Hippocampus Head) with 2 trials and 31 gamma bands.
+[2025-06-26 18:42:23]     -> Channel 028 (Hippocampus Head) [30/138]
+Starting modulogram for CH028 (Hippocampus Head): 2 trials and 31 gamma bands
+[✓] Completed channel 028 (Hippocampus Head) with 2 trials and 31 gamma bands.
+[2025-06-26 18:44:15]     -> Channel 027 (Posterior Superior Temporal Sulcus) [31/138]
+Starting modulogram for CH027 (Posterior Superior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 027 (Posterior Superior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:46:06]     -> Channel 026 (Posterior Superior Temporal Sulcus) [32/138]
+Starting modulogram for CH026 (Posterior Superior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 026 (Posterior Superior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:47:57]     -> Channel 025 (Posterior Superior Temporal Sulcus) [33/138]
+Starting modulogram for CH025 (Posterior Superior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 025 (Posterior Superior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:49:48]     -> Channel 024 (Posterior Superior Temporal Sulcus) [34/138]
+Starting modulogram for CH024 (Posterior Superior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 024 (Posterior Superior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:51:39]     -> Channel 023 (Posterior Superior Temporal Sulcus) [35/138]
+Starting modulogram for CH023 (Posterior Superior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 023 (Posterior Superior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:53:30]     -> Channel 022 (Posterior Superior Temporal Sulcus) [36/138]
+Starting modulogram for CH022 (Posterior Superior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 022 (Posterior Superior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 18:55:21]     -> Channel 021 (WM) [37/138]
+Starting modulogram for CH021 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 021 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 18:57:12]     -> Channel 020 (WM) [38/138]
+Starting modulogram for CH020 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 020 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 18:59:04]     -> Channel 019 (WM) [39/138]
+Starting modulogram for CH019 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 019 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 19:00:55]     -> Channel 018 (Hippocampus Tail) [40/138]
+Starting modulogram for CH018 (Hippocampus Tail): 2 trials and 31 gamma bands
+[✓] Completed channel 018 (Hippocampus Tail) with 2 trials and 31 gamma bands.
+[2025-06-26 19:02:46]     -> Channel 017 (Hippocampus Tail) [41/138]
+Starting modulogram for CH017 (Hippocampus Tail): 2 trials and 31 gamma bands
+[✓] Completed channel 017 (Hippocampus Tail) with 2 trials and 31 gamma bands.
+[2025-06-26 19:04:38]     -> Channel 016 (Posterior Parahippocampal) [42/138]
+Starting modulogram for CH016 (Posterior Parahippocampal): 2 trials and 31 gamma bands
+[✓] Completed channel 016 (Posterior Parahippocampal) with 2 trials and 31 gamma bands.
+[2025-06-26 19:06:30]     -> Channel 015 (Posterior Parahippocampal) [43/138]
+Starting modulogram for CH015 (Posterior Parahippocampal): 2 trials and 31 gamma bands
+[✓] Completed channel 015 (Posterior Parahippocampal) with 2 trials and 31 gamma bands.
+[2025-06-26 19:08:21]     -> Channel 014 (Posterior Parahippocampal) [44/138]
+Starting modulogram for CH014 (Posterior Parahippocampal): 2 trials and 31 gamma bands
+[✓] Completed channel 014 (Posterior Parahippocampal) with 2 trials and 31 gamma bands.
+[2025-06-26 19:10:11]     -> Channel 013 (Posterior Parahippocampal) [45/138]
+Starting modulogram for CH013 (Posterior Parahippocampal): 2 trials and 31 gamma bands
+[✓] Completed channel 013 (Posterior Parahippocampal) with 2 trials and 31 gamma bands.
+[2025-06-26 19:12:02]     -> Channel 069 (Inferior Temporal Sulcus) [46/138]
+Starting modulogram for CH069 (Inferior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 069 (Inferior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:13:54]     -> Channel 068 (Inferior Temporal Sulcus) [47/138]
+Starting modulogram for CH068 (Inferior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 068 (Inferior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:15:45]     -> Channel 067 (Inferior Temporal Sulcus) [48/138]
+Starting modulogram for CH067 (Inferior Temporal Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 067 (Inferior Temporal Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:17:37]     -> Channel 066 (Fusiform Gyrus) [49/138]
+Starting modulogram for CH066 (Fusiform Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 066 (Fusiform Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:19:29]     -> Channel 065 (Fusiform Gyrus) [50/138]
+Starting modulogram for CH065 (Fusiform Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 065 (Fusiform Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:21:19]     -> Channel 064 (Fusiform Gyrus) [51/138]
+Starting modulogram for CH064 (Fusiform Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 064 (Fusiform Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:23:11]     -> Channel 063 (Collateral Sulcus) [52/138]
+Starting modulogram for CH063 (Collateral Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 063 (Collateral Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:25:02]     -> Channel 062 (Collateral Sulcus) [53/138]
+Starting modulogram for CH062 (Collateral Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 062 (Collateral Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:26:53]     -> Channel 061 (Collateral Sulcus) [54/138]
+Starting modulogram for CH061 (Collateral Sulcus): 2 trials and 31 gamma bands
+[✓] Completed channel 061 (Collateral Sulcus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:28:45]     -> Channel 060 (Entorhinal Cortex) [55/138]
+Starting modulogram for CH060 (Entorhinal Cortex): 2 trials and 31 gamma bands
+[✓] Completed channel 060 (Entorhinal Cortex) with 2 trials and 31 gamma bands.
+[2025-06-26 19:30:36]     -> Channel 059 (Entorhinal Cortex) [56/138]
+Starting modulogram for CH059 (Entorhinal Cortex): 2 trials and 31 gamma bands
+[✓] Completed channel 059 (Entorhinal Cortex) with 2 trials and 31 gamma bands.
+[2025-06-26 19:32:26]     -> Channel 058 (Entorhinal Cortex) [57/138]
+Starting modulogram for CH058 (Entorhinal Cortex): 2 trials and 31 gamma bands
+[✓] Completed channel 058 (Entorhinal Cortex) with 2 trials and 31 gamma bands.
+[2025-06-26 19:34:17]     -> Channel 012 (Basal Inferior Temporal Gyrus) [58/138]
+Starting modulogram for CH012 (Basal Inferior Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 012 (Basal Inferior Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:36:10]     -> Channel 011 (Basal Inferior Temporal Gyrus) [59/138]
+Starting modulogram for CH011 (Basal Inferior Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 011 (Basal Inferior Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:38:02]     -> Channel 010 (Basal Inferior Temporal Gyrus) [60/138]
+Starting modulogram for CH010 (Basal Inferior Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 010 (Basal Inferior Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:39:52]     -> Channel 009 (Basal Inferior Temporal Gyrus) [61/138]
+Starting modulogram for CH009 (Basal Inferior Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 009 (Basal Inferior Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:41:42]     -> Channel 008 (Basal Inferior Temporal Gyrus) [62/138]
+Starting modulogram for CH008 (Basal Inferior Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 008 (Basal Inferior Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:43:33]     -> Channel 007 (Basal Inferior Temporal Gyrus) [63/138]
+Starting modulogram for CH007 (Basal Inferior Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 007 (Basal Inferior Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:45:24]     -> Channel 006 (Temporal Occipital Sulcus*) [64/138]
+Starting modulogram for CH006 (Temporal Occipital Sulcus*): 2 trials and 31 gamma bands
+[✓] Completed channel 006 (Temporal Occipital Sulcus*) with 2 trials and 31 gamma bands.
+[2025-06-26 19:47:16]     -> Channel 005 (Fusiform Gyrus) [65/138]
+Starting modulogram for CH005 (Fusiform Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 005 (Fusiform Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:49:07]     -> Channel 004 (Fusiform Gyrus) [66/138]
+Starting modulogram for CH004 (Fusiform Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 004 (Fusiform Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:50:58]     -> Channel 003 (Fusiform Gyrus) [67/138]
+Starting modulogram for CH003 (Fusiform Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 003 (Fusiform Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 19:52:48]     -> Channel 002 (Parahippocampal) [68/138]
+Starting modulogram for CH002 (Parahippocampal): 2 trials and 31 gamma bands
+[✓] Completed channel 002 (Parahippocampal) with 2 trials and 31 gamma bands.
+[2025-06-26 19:54:39]     -> Channel 001 (Parahippocampal) [69/138]
+Starting modulogram for CH001 (Parahippocampal): 2 trials and 31 gamma bands
+[✓] Completed channel 001 (Parahippocampal) with 2 trials and 31 gamma bands.
+[2025-06-26 19:56:30]     -> Channel 079 (Out) [70/138]
+Starting modulogram for CH079 (Out): 2 trials and 31 gamma bands
+[✓] Completed channel 079 (Out) with 2 trials and 31 gamma bands.
+[2025-06-26 19:58:21]     -> Channel 078 (Out) [71/138]
+Starting modulogram for CH078 (Out): 2 trials and 31 gamma bands
+[✓] Completed channel 078 (Out) with 2 trials and 31 gamma bands.
+[2025-06-26 20:00:12]     -> Channel 077 (Middle Temporal Gyrus) [72/138]
+Starting modulogram for CH077 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 077 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 20:02:02]     -> Channel 076 (Middle Temporal Gyrus) [73/138]
+Starting modulogram for CH076 (Middle Temporal Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 076 (Middle Temporal Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 20:03:53]     -> Channel 075 (Temporal Pole*) [74/138]
+Starting modulogram for CH075 (Temporal Pole*): 2 trials and 31 gamma bands
+[✓] Completed channel 075 (Temporal Pole*) with 2 trials and 31 gamma bands.
+[2025-06-26 20:05:44]     -> Channel 074 (Temporal Pole*) [75/138]
+Starting modulogram for CH074 (Temporal Pole*): 2 trials and 31 gamma bands
+[✓] Completed channel 074 (Temporal Pole*) with 2 trials and 31 gamma bands.
+[2025-06-26 20:07:37]     -> Channel 073 (Temporal Pole*) [76/138]
+Starting modulogram for CH073 (Temporal Pole*): 2 trials and 31 gamma bands
+[✓] Completed channel 073 (Temporal Pole*) with 2 trials and 31 gamma bands.
+[2025-06-26 20:09:30]     -> Channel 072 (Temporal Pole*) [77/138]
+Starting modulogram for CH072 (Temporal Pole*): 2 trials and 31 gamma bands
+[✓] Completed channel 072 (Temporal Pole*) with 2 trials and 31 gamma bands.
+[2025-06-26 20:11:21]     -> Channel 071 (Temporal Pole*) [78/138]
+Starting modulogram for CH071 (Temporal Pole*): 2 trials and 31 gamma bands
+[✓] Completed channel 071 (Temporal Pole*) with 2 trials and 31 gamma bands.
+[2025-06-26 20:13:12]     -> Channel 070 (Temporal Pole*) [79/138]
+Starting modulogram for CH070 (Temporal Pole*): 2 trials and 31 gamma bands
+[✓] Completed channel 070 (Temporal Pole*) with 2 trials and 31 gamma bands.
+[2025-06-26 20:15:02]     -> Channel 094 (Planum Polare) [80/138]
+Starting modulogram for CH094 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 094 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:16:52]     -> Channel 093 (Planum Polare) [81/138]
+Starting modulogram for CH093 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 093 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:18:44]     -> Channel 092 (Planum Polare) [82/138]
+Starting modulogram for CH092 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 092 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:20:35]     -> Channel 091 (Planum Polare) [83/138]
+Starting modulogram for CH091 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 091 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:22:26]     -> Channel 090 (Sylvian Fissure) [84/138]
+Starting modulogram for CH090 (Sylvian Fissure): 2 trials and 31 gamma bands
+[✓] Completed channel 090 (Sylvian Fissure) with 2 trials and 31 gamma bands.
+[2025-06-26 20:24:17]     -> Channel 089 (Ventral Insula) [85/138]
+Starting modulogram for CH089 (Ventral Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 089 (Ventral Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 20:26:07]     -> Channel 088 (Ventral Insula) [86/138]
+Starting modulogram for CH088 (Ventral Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 088 (Ventral Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 20:27:58]     -> Channel 087 (Ventral Insula) [87/138]
+Starting modulogram for CH087 (Ventral Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 087 (Ventral Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 20:29:49]     -> Channel 086 (Posterior Orbitofrontal) [88/138]
+Starting modulogram for CH086 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 086 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:31:41]     -> Channel 085 (Posterior Orbitofrontal) [89/138]
+Starting modulogram for CH085 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 085 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:33:32]     -> Channel 084 (Posterior Orbitofrontal) [90/138]
+Starting modulogram for CH084 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 084 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:35:22]     -> Channel 083 (Posterior Orbitofrontal) [91/138]
+Starting modulogram for CH083 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 083 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:37:14]     -> Channel 082 (Posterior Orbitofrontal) [92/138]
+Starting modulogram for CH082 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 082 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:39:07]     -> Channel 081 (Posterior Orbitofrontal) [93/138]
+Starting modulogram for CH081 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 081 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:40:58]     -> Channel 080 (Posterior Orbitofrontal) [94/138]
+Starting modulogram for CH080 (Posterior Orbitofrontal): 2 trials and 31 gamma bands
+[✓] Completed channel 080 (Posterior Orbitofrontal) with 2 trials and 31 gamma bands.
+[2025-06-26 20:42:49]     -> Channel 102 (Planum Polare) [95/138]
+Starting modulogram for CH102 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 102 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:44:40]     -> Channel 101 (Planum Polare) [96/138]
+Starting modulogram for CH101 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 101 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:46:31]     -> Channel 100 (Planum Polare) [97/138]
+Starting modulogram for CH100 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 100 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:48:21]     -> Channel 099 (Planum Polare) [98/138]
+Starting modulogram for CH099 (Planum Polare): 2 trials and 31 gamma bands
+[✓] Completed channel 099 (Planum Polare) with 2 trials and 31 gamma bands.
+[2025-06-26 20:50:10]     -> Channel 098 (Sylvian Fissure) [99/138]
+Starting modulogram for CH098 (Sylvian Fissure): 2 trials and 31 gamma bands
+[✓] Completed channel 098 (Sylvian Fissure) with 2 trials and 31 gamma bands.
+[2025-06-26 20:51:58]     -> Channel 097 (Ventral Insula) [100/138]
+Starting modulogram for CH097 (Ventral Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 097 (Ventral Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 20:53:44]     -> Channel 096 (Ventral Insula) [101/138]
+Starting modulogram for CH096 (Ventral Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 096 (Ventral Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 20:55:30]     -> Channel 095 (Ventral Insula) [102/138]
+Starting modulogram for CH095 (Ventral Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 095 (Ventral Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 20:57:15]     -> Channel 120 (Out) [103/138]
+Starting modulogram for CH120 (Out): 2 trials and 31 gamma bands
+[✓] Completed channel 120 (Out) with 2 trials and 31 gamma bands.
+[2025-06-26 20:59:01]     -> Channel 119 (Planum Temporale) [104/138]
+Starting modulogram for CH119 (Planum Temporale): 2 trials and 31 gamma bands
+[✓] Completed channel 119 (Planum Temporale) with 2 trials and 31 gamma bands.
+[2025-06-26 21:00:46]     -> Channel 118 (Planum Temporale) [105/138]
+Starting modulogram for CH118 (Planum Temporale): 2 trials and 31 gamma bands
+[✓] Completed channel 118 (Planum Temporale) with 2 trials and 31 gamma bands.
+[2025-06-26 21:02:31]     -> Channel 117 (Planum Temporale) [106/138]
+Starting modulogram for CH117 (Planum Temporale): 2 trials and 31 gamma bands
+[✓] Completed channel 117 (Planum Temporale) with 2 trials and 31 gamma bands.
+[2025-06-26 21:04:16]     -> Channel 116 (Planum Temporale) [107/138]
+Starting modulogram for CH116 (Planum Temporale): 2 trials and 31 gamma bands
+[✓] Completed channel 116 (Planum Temporale) with 2 trials and 31 gamma bands.
+[2025-06-26 21:06:02]     -> Channel 115 (Planum Temporale) [108/138]
+Starting modulogram for CH115 (Planum Temporale): 2 trials and 31 gamma bands
+[✓] Completed channel 115 (Planum Temporale) with 2 trials and 31 gamma bands.
+[2025-06-26 21:07:47]     -> Channel 114 (Planum Temporale) [109/138]
+Starting modulogram for CH114 (Planum Temporale): 2 trials and 31 gamma bands
+[✓] Completed channel 114 (Planum Temporale) with 2 trials and 31 gamma bands.
+[2025-06-26 21:09:33]     -> Channel 113 (Heschl's Gyrus) [110/138]
+Starting modulogram for CH113 (Heschl's Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 113 (Heschl's Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 21:11:18]     -> Channel 112 (Heschl's Gyrus) [111/138]
+Starting modulogram for CH112 (Heschl's Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 112 (Heschl's Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 21:13:03]     -> Channel 111 (Heschl's Gyrus) [112/138]
+Starting modulogram for CH111 (Heschl's Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 111 (Heschl's Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 21:14:49]     -> Channel 110 (Heschl's Gyrus) [113/138]
+Starting modulogram for CH110 (Heschl's Gyrus): 2 trials and 31 gamma bands
+[✓] Completed channel 110 (Heschl's Gyrus) with 2 trials and 31 gamma bands.
+[2025-06-26 21:16:34]     -> Channel 109 (Posterior Insula) [114/138]
+Starting modulogram for CH109 (Posterior Insula): 2 trials and 31 gamma bands
+[✓] Completed channel 109 (Posterior Insula) with 2 trials and 31 gamma bands.
+[2025-06-26 21:18:19]     -> Channel 108 (WM) [115/138]
+Starting modulogram for CH108 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 108 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:20:05]     -> Channel 107 (WM) [116/138]
+Starting modulogram for CH107 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 107 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:21:50]     -> Channel 106 (Pulvinar) [117/138]
+Starting modulogram for CH106 (Pulvinar): 2 trials and 31 gamma bands
+[✓] Completed channel 106 (Pulvinar) with 2 trials and 31 gamma bands.
+[2025-06-26 21:23:36]     -> Channel 105 (Pulvinar) [118/138]
+Starting modulogram for CH105 (Pulvinar): 2 trials and 31 gamma bands
+[✓] Completed channel 105 (Pulvinar) with 2 trials and 31 gamma bands.
+[2025-06-26 21:25:22]     -> Channel 104 (Pulvinar) [119/138]
+Starting modulogram for CH104 (Pulvinar): 2 trials and 31 gamma bands
+[✓] Completed channel 104 (Pulvinar) with 2 trials and 31 gamma bands.
+[2025-06-26 21:27:07]     -> Channel 103 (Pulvinar) [120/138]
+Starting modulogram for CH103 (Pulvinar): 2 trials and 31 gamma bands
+[✓] Completed channel 103 (Pulvinar) with 2 trials and 31 gamma bands.
+[2025-06-26 21:28:52]     -> Channel 138 (WM) [121/138]
+Starting modulogram for CH138 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 138 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:30:37]     -> Channel 137 (WM) [122/138]
+Starting modulogram for CH137 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 137 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:32:22]     -> Channel 136 (WM) [123/138]
+Starting modulogram for CH136 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 136 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:34:08]     -> Channel 135 (WM) [124/138]
+Starting modulogram for CH135 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 135 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:35:53]     -> Channel 134 (WM) [125/138]
+Starting modulogram for CH134 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 134 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:37:39]     -> Channel 133 (WM) [126/138]
+Starting modulogram for CH133 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 133 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:39:25]     -> Channel 132 (WM) [127/138]
+Starting modulogram for CH132 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 132 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:41:09]     -> Channel 131 (WM) [128/138]
+Starting modulogram for CH131 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 131 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:42:53]     -> Channel 130 (WM) [129/138]
+Starting modulogram for CH130 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 130 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:44:37]     -> Channel 129 (WM) [130/138]
+Starting modulogram for CH129 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 129 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:46:21]     -> Channel 128 (WM) [131/138]
+Starting modulogram for CH128 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 128 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:48:05]     -> Channel 127 (WM) [132/138]
+Starting modulogram for CH127 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 127 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:49:49]     -> Channel 126 (WM) [133/138]
+Starting modulogram for CH126 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 126 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:51:34]     -> Channel 125 (WM) [134/138]
+Starting modulogram for CH125 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 125 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:53:18]     -> Channel 124 (WM) [135/138]
+Starting modulogram for CH124 (WM): 2 trials and 31 gamma bands
+[✓] Completed channel 124 (WM) with 2 trials and 31 gamma bands.
+[2025-06-26 21:55:02]     -> Channel 123 (Posterior Cingulate) [136/138]
+Starting modulogram for CH123 (Posterior Cingulate): 2 trials and 31 gamma bands
+[✓] Completed channel 123 (Posterior Cingulate) with 2 trials and 31 gamma bands.
+[2025-06-26 21:56:46]     -> Channel 122 (Posterior Cingulate) [137/138]
+Starting modulogram for CH122 (Posterior Cingulate): 2 trials and 31 gamma bands
+[✓] Completed channel 122 (Posterior Cingulate) with 2 trials and 31 gamma bands.
+[2025-06-26 21:58:30]     -> Channel 121 (Posterior Cingulate) [138/138]
+Starting modulogram for CH121 (Posterior Cingulate): 2 trials and 31 gamma bands
+[✓] Completed channel 121 (Posterior Cingulate) with 2 trials and 31 gamma bands.
+[2025-06-26 22:00:14]   Saved subject data to /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session1_bw5_bins36/EMU024_session1_struct.mat
+[2025-06-26 22:00:14] Saved combined data to /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session1_bw5_bins36/allSubjects_session1_20250626_220014.mat
+
+--- Run started at 26-Jun-2025 22:00:14 ---
+Subject: EMU024
+Alignment: win
+Session: 2
+Modulated Range: [30 120]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session2_bw5_bins36
+[2025-06-26 22:00:14] ===== Modulogram Pipeline =====
+[2025-06-26 22:00:14] Subjects: 1
+[2025-06-26 22:00:14] Session : 2
+[2025-06-26 22:00:14] Alignments: win
+[2025-06-26 22:00:14] 
+=== [1/1] Subject EMU024 | Session 2 ===
+[2025-06-26 22:00:14]   Loaded setup: 138 channels
+[2025-06-26 22:00:14]   -> Alignment 1/1: win
+[2025-06-26 22:00:14]     -> Channel 057 (Anterior Middle Temporal Gyrus) [1/138]
+Starting modulogram for CH057 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 057 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:01:32]     -> Channel 056 (Anterior Middle Temporal Gyrus) [2/138]
+Starting modulogram for CH056 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 056 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:02:51]     -> Channel 055 (Anterior Middle Temporal Gyrus) [3/138]
+Starting modulogram for CH055 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 055 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:04:09]     -> Channel 054 (Anterior Middle Temporal Gyrus) [4/138]
+Starting modulogram for CH054 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 054 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:05:28]     -> Channel 053 (Anterior Middle Temporal Gyrus) [5/138]
+Starting modulogram for CH053 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 053 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:06:46]     -> Channel 052 (Anterior Middle Temporal Gyrus) [6/138]
+Starting modulogram for CH052 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 052 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:08:05]     -> Channel 051 (Anterior Middle Temporal Gyrus) [7/138]
+Starting modulogram for CH051 (Anterior Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 051 (Anterior Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:09:23]     -> Channel 050 (Insula) [8/138]
+Starting modulogram for CH050 (Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 050 (Insula) with 11 trials and 31 gamma bands.
+[2025-06-26 22:10:42]     -> Channel 049 (WM (Temporal Stem)*) [9/138]
+Starting modulogram for CH049 (WM (Temporal Stem)*): 11 trials and 31 gamma bands
+[✓] Completed channel 049 (WM (Temporal Stem)*) with 11 trials and 31 gamma bands.
+[2025-06-26 22:12:00]     -> Channel 048 (WM (Temporal Stem)*) [10/138]
+Starting modulogram for CH048 (WM (Temporal Stem)*): 11 trials and 31 gamma bands
+[✓] Completed channel 048 (WM (Temporal Stem)*) with 11 trials and 31 gamma bands.
+[2025-06-26 22:13:18]     -> Channel 047 (WM (Temporal Stem)*) [11/138]
+Starting modulogram for CH047 (WM (Temporal Stem)*): 11 trials and 31 gamma bands
+[✓] Completed channel 047 (WM (Temporal Stem)*) with 11 trials and 31 gamma bands.
+[2025-06-26 22:14:36]     -> Channel 046 (Amygdala) [12/138]
+Starting modulogram for CH046 (Amygdala): 11 trials and 31 gamma bands
+[✓] Completed channel 046 (Amygdala) with 11 trials and 31 gamma bands.
+[2025-06-26 22:15:55]     -> Channel 045 (Amygdala) [13/138]
+Starting modulogram for CH045 (Amygdala): 11 trials and 31 gamma bands
+[✓] Completed channel 045 (Amygdala) with 11 trials and 31 gamma bands.
+[2025-06-26 22:17:13]     -> Channel 044 (Amygdala) [14/138]
+Starting modulogram for CH044 (Amygdala): 11 trials and 31 gamma bands
+[✓] Completed channel 044 (Amygdala) with 11 trials and 31 gamma bands.
+[2025-06-26 22:18:31]     -> Channel 043 (Amygdala) [15/138]
+Starting modulogram for CH043 (Amygdala): 11 trials and 31 gamma bands
+[✓] Completed channel 043 (Amygdala) with 11 trials and 31 gamma bands.
+[2025-06-26 22:19:50]     -> Channel 042 (Middle Temporal Gyrus) [16/138]
+Starting modulogram for CH042 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 042 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:21:08]     -> Channel 041 (Middle Temporal Gyrus) [17/138]
+Starting modulogram for CH041 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 041 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:22:27]     -> Channel 040 (Middle Temporal Gyrus) [18/138]
+Starting modulogram for CH040 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 040 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:23:45]     -> Channel 039 (Middle Temporal Gyrus) [19/138]
+Starting modulogram for CH039 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 039 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:25:04]     -> Channel 038 (Middle Temporal Gyrus) [20/138]
+Starting modulogram for CH038 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 038 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:26:22]     -> Channel 037 (Middle Temporal Gyrus) [21/138]
+Starting modulogram for CH037 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 037 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:27:40]     -> Channel 036 (Middle Temporal Gyrus) [22/138]
+Starting modulogram for CH036 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 036 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:28:59]     -> Channel 035 (WM) [23/138]
+Starting modulogram for CH035 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 035 (WM) with 11 trials and 31 gamma bands.
+[2025-06-26 22:30:17]     -> Channel 034 (WM) [24/138]
+Starting modulogram for CH034 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 034 (WM) with 11 trials and 31 gamma bands.
+[2025-06-26 22:31:35]     -> Channel 033 (WM) [25/138]
+Starting modulogram for CH033 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 033 (WM) with 11 trials and 31 gamma bands.
+[2025-06-26 22:32:54]     -> Channel 032 (Hippocampus Head) [26/138]
+Starting modulogram for CH032 (Hippocampus Head): 11 trials and 31 gamma bands
+[✓] Completed channel 032 (Hippocampus Head) with 11 trials and 31 gamma bands.
+[2025-06-26 22:34:12]     -> Channel 031 (Hippocampus Head) [27/138]
+Starting modulogram for CH031 (Hippocampus Head): 11 trials and 31 gamma bands
+[✓] Completed channel 031 (Hippocampus Head) with 11 trials and 31 gamma bands.
+[2025-06-26 22:35:30]     -> Channel 030 (Hippocampus Head) [28/138]
+Starting modulogram for CH030 (Hippocampus Head): 11 trials and 31 gamma bands
+[✓] Completed channel 030 (Hippocampus Head) with 11 trials and 31 gamma bands.
+[2025-06-26 22:36:49]     -> Channel 029 (Hippocampus Head) [29/138]
+Starting modulogram for CH029 (Hippocampus Head): 11 trials and 31 gamma bands
+[✓] Completed channel 029 (Hippocampus Head) with 11 trials and 31 gamma bands.
+[2025-06-26 22:38:07]     -> Channel 028 (Hippocampus Head) [30/138]
+Starting modulogram for CH028 (Hippocampus Head): 11 trials and 31 gamma bands
+[✓] Completed channel 028 (Hippocampus Head) with 11 trials and 31 gamma bands.
+[2025-06-26 22:39:26]     -> Channel 027 (Posterior Superior Temporal Sulcus) [31/138]
+Starting modulogram for CH027 (Posterior Superior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 027 (Posterior Superior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:40:44]     -> Channel 026 (Posterior Superior Temporal Sulcus) [32/138]
+Starting modulogram for CH026 (Posterior Superior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 026 (Posterior Superior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:42:02]     -> Channel 025 (Posterior Superior Temporal Sulcus) [33/138]
+Starting modulogram for CH025 (Posterior Superior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 025 (Posterior Superior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:43:21]     -> Channel 024 (Posterior Superior Temporal Sulcus) [34/138]
+Starting modulogram for CH024 (Posterior Superior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 024 (Posterior Superior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:44:39]     -> Channel 023 (Posterior Superior Temporal Sulcus) [35/138]
+Starting modulogram for CH023 (Posterior Superior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 023 (Posterior Superior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:45:57]     -> Channel 022 (Posterior Superior Temporal Sulcus) [36/138]
+Starting modulogram for CH022 (Posterior Superior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 022 (Posterior Superior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 22:47:16]     -> Channel 021 (WM) [37/138]
+Starting modulogram for CH021 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 021 (WM) with 11 trials and 31 gamma bands.
+[2025-06-26 22:48:34]     -> Channel 020 (WM) [38/138]
+Starting modulogram for CH020 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 020 (WM) with 11 trials and 31 gamma bands.
+[2025-06-26 22:49:52]     -> Channel 019 (WM) [39/138]
+Starting modulogram for CH019 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 019 (WM) with 11 trials and 31 gamma bands.
+[2025-06-26 22:51:11]     -> Channel 018 (Hippocampus Tail) [40/138]
+Starting modulogram for CH018 (Hippocampus Tail): 11 trials and 31 gamma bands
+[✓] Completed channel 018 (Hippocampus Tail) with 11 trials and 31 gamma bands.
+[2025-06-26 22:52:29]     -> Channel 017 (Hippocampus Tail) [41/138]
+Starting modulogram for CH017 (Hippocampus Tail): 11 trials and 31 gamma bands
+[✓] Completed channel 017 (Hippocampus Tail) with 11 trials and 31 gamma bands.
+[2025-06-26 22:53:48]     -> Channel 016 (Posterior Parahippocampal) [42/138]
+Starting modulogram for CH016 (Posterior Parahippocampal): 11 trials and 31 gamma bands
+[✓] Completed channel 016 (Posterior Parahippocampal) with 11 trials and 31 gamma bands.
+[2025-06-26 22:55:06]     -> Channel 015 (Posterior Parahippocampal) [43/138]
+Starting modulogram for CH015 (Posterior Parahippocampal): 11 trials and 31 gamma bands
+[✓] Completed channel 015 (Posterior Parahippocampal) with 11 trials and 31 gamma bands.
+[2025-06-26 22:56:25]     -> Channel 014 (Posterior Parahippocampal) [44/138]
+Starting modulogram for CH014 (Posterior Parahippocampal): 11 trials and 31 gamma bands
+[✓] Completed channel 014 (Posterior Parahippocampal) with 11 trials and 31 gamma bands.
+[2025-06-26 22:57:43]     -> Channel 013 (Posterior Parahippocampal) [45/138]
+Starting modulogram for CH013 (Posterior Parahippocampal): 11 trials and 31 gamma bands
+[✓] Completed channel 013 (Posterior Parahippocampal) with 11 trials and 31 gamma bands.
+[2025-06-26 22:59:01]     -> Channel 069 (Inferior Temporal Sulcus) [46/138]
+Starting modulogram for CH069 (Inferior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 069 (Inferior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:00:19]     -> Channel 068 (Inferior Temporal Sulcus) [47/138]
+Starting modulogram for CH068 (Inferior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 068 (Inferior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:01:38]     -> Channel 067 (Inferior Temporal Sulcus) [48/138]
+Starting modulogram for CH067 (Inferior Temporal Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 067 (Inferior Temporal Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:02:56]     -> Channel 066 (Fusiform Gyrus) [49/138]
+Starting modulogram for CH066 (Fusiform Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 066 (Fusiform Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:04:14]     -> Channel 065 (Fusiform Gyrus) [50/138]
+Starting modulogram for CH065 (Fusiform Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 065 (Fusiform Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:05:33]     -> Channel 064 (Fusiform Gyrus) [51/138]
+Starting modulogram for CH064 (Fusiform Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 064 (Fusiform Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:06:51]     -> Channel 063 (Collateral Sulcus) [52/138]
+Starting modulogram for CH063 (Collateral Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 063 (Collateral Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:08:10]     -> Channel 062 (Collateral Sulcus) [53/138]
+Starting modulogram for CH062 (Collateral Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 062 (Collateral Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:09:28]     -> Channel 061 (Collateral Sulcus) [54/138]
+Starting modulogram for CH061 (Collateral Sulcus): 11 trials and 31 gamma bands
+[✓] Completed channel 061 (Collateral Sulcus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:10:47]     -> Channel 060 (Entorhinal Cortex) [55/138]
+Starting modulogram for CH060 (Entorhinal Cortex): 11 trials and 31 gamma bands
+[✓] Completed channel 060 (Entorhinal Cortex) with 11 trials and 31 gamma bands.
+[2025-06-26 23:12:05]     -> Channel 059 (Entorhinal Cortex) [56/138]
+Starting modulogram for CH059 (Entorhinal Cortex): 11 trials and 31 gamma bands
+[✓] Completed channel 059 (Entorhinal Cortex) with 11 trials and 31 gamma bands.
+[2025-06-26 23:13:23]     -> Channel 058 (Entorhinal Cortex) [57/138]
+Starting modulogram for CH058 (Entorhinal Cortex): 11 trials and 31 gamma bands
+[✓] Completed channel 058 (Entorhinal Cortex) with 11 trials and 31 gamma bands.
+[2025-06-26 23:14:42]     -> Channel 012 (Basal Inferior Temporal Gyrus) [58/138]
+Starting modulogram for CH012 (Basal Inferior Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 012 (Basal Inferior Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:16:00]     -> Channel 011 (Basal Inferior Temporal Gyrus) [59/138]
+Starting modulogram for CH011 (Basal Inferior Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 011 (Basal Inferior Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:17:18]     -> Channel 010 (Basal Inferior Temporal Gyrus) [60/138]
+Starting modulogram for CH010 (Basal Inferior Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 010 (Basal Inferior Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:18:37]     -> Channel 009 (Basal Inferior Temporal Gyrus) [61/138]
+Starting modulogram for CH009 (Basal Inferior Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 009 (Basal Inferior Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:19:55]     -> Channel 008 (Basal Inferior Temporal Gyrus) [62/138]
+Starting modulogram for CH008 (Basal Inferior Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 008 (Basal Inferior Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:21:13]     -> Channel 007 (Basal Inferior Temporal Gyrus) [63/138]
+Starting modulogram for CH007 (Basal Inferior Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 007 (Basal Inferior Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:22:32]     -> Channel 006 (Temporal Occipital Sulcus*) [64/138]
+Starting modulogram for CH006 (Temporal Occipital Sulcus*): 11 trials and 31 gamma bands
+[✓] Completed channel 006 (Temporal Occipital Sulcus*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:23:50]     -> Channel 005 (Fusiform Gyrus) [65/138]
+Starting modulogram for CH005 (Fusiform Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 005 (Fusiform Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:25:09]     -> Channel 004 (Fusiform Gyrus) [66/138]
+Starting modulogram for CH004 (Fusiform Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 004 (Fusiform Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:26:27]     -> Channel 003 (Fusiform Gyrus) [67/138]
+Starting modulogram for CH003 (Fusiform Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 003 (Fusiform Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:27:46]     -> Channel 002 (Parahippocampal) [68/138]
+Starting modulogram for CH002 (Parahippocampal): 11 trials and 31 gamma bands
+[✓] Completed channel 002 (Parahippocampal) with 11 trials and 31 gamma bands.
+[2025-06-26 23:29:04]     -> Channel 001 (Parahippocampal) [69/138]
+Starting modulogram for CH001 (Parahippocampal): 11 trials and 31 gamma bands
+[✓] Completed channel 001 (Parahippocampal) with 11 trials and 31 gamma bands.
+[2025-06-26 23:30:22]     -> Channel 079 (Out) [70/138]
+Starting modulogram for CH079 (Out): 11 trials and 31 gamma bands
+[✓] Completed channel 079 (Out) with 11 trials and 31 gamma bands.
+[2025-06-26 23:31:41]     -> Channel 078 (Out) [71/138]
+Starting modulogram for CH078 (Out): 11 trials and 31 gamma bands
+[✓] Completed channel 078 (Out) with 11 trials and 31 gamma bands.
+[2025-06-26 23:32:59]     -> Channel 077 (Middle Temporal Gyrus) [72/138]
+Starting modulogram for CH077 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 077 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:34:17]     -> Channel 076 (Middle Temporal Gyrus) [73/138]
+Starting modulogram for CH076 (Middle Temporal Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 076 (Middle Temporal Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-26 23:35:36]     -> Channel 075 (Temporal Pole*) [74/138]
+Starting modulogram for CH075 (Temporal Pole*): 11 trials and 31 gamma bands
+[✓] Completed channel 075 (Temporal Pole*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:36:54]     -> Channel 074 (Temporal Pole*) [75/138]
+Starting modulogram for CH074 (Temporal Pole*): 11 trials and 31 gamma bands
+[✓] Completed channel 074 (Temporal Pole*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:38:13]     -> Channel 073 (Temporal Pole*) [76/138]
+Starting modulogram for CH073 (Temporal Pole*): 11 trials and 31 gamma bands
+[✓] Completed channel 073 (Temporal Pole*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:39:31]     -> Channel 072 (Temporal Pole*) [77/138]
+Starting modulogram for CH072 (Temporal Pole*): 11 trials and 31 gamma bands
+[✓] Completed channel 072 (Temporal Pole*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:40:49]     -> Channel 071 (Temporal Pole*) [78/138]
+Starting modulogram for CH071 (Temporal Pole*): 11 trials and 31 gamma bands
+[✓] Completed channel 071 (Temporal Pole*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:42:08]     -> Channel 070 (Temporal Pole*) [79/138]
+Starting modulogram for CH070 (Temporal Pole*): 11 trials and 31 gamma bands
+[✓] Completed channel 070 (Temporal Pole*) with 11 trials and 31 gamma bands.
+[2025-06-26 23:43:26]     -> Channel 094 (Planum Polare) [80/138]
+Starting modulogram for CH094 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 094 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-26 23:44:44]     -> Channel 093 (Planum Polare) [81/138]
+Starting modulogram for CH093 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 093 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-26 23:46:03]     -> Channel 092 (Planum Polare) [82/138]
+Starting modulogram for CH092 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 092 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-26 23:47:21]     -> Channel 091 (Planum Polare) [83/138]
+Starting modulogram for CH091 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 091 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-26 23:48:39]     -> Channel 090 (Sylvian Fissure) [84/138]
+Starting modulogram for CH090 (Sylvian Fissure): 11 trials and 31 gamma bands
+[✓] Completed channel 090 (Sylvian Fissure) with 11 trials and 31 gamma bands.
+[2025-06-26 23:49:57]     -> Channel 089 (Ventral Insula) [85/138]
+Starting modulogram for CH089 (Ventral Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 089 (Ventral Insula) with 11 trials and 31 gamma bands.
+[2025-06-26 23:51:16]     -> Channel 088 (Ventral Insula) [86/138]
+Starting modulogram for CH088 (Ventral Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 088 (Ventral Insula) with 11 trials and 31 gamma bands.
+[2025-06-26 23:52:35]     -> Channel 087 (Ventral Insula) [87/138]
+Starting modulogram for CH087 (Ventral Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 087 (Ventral Insula) with 11 trials and 31 gamma bands.
+[2025-06-26 23:53:53]     -> Channel 086 (Posterior Orbitofrontal) [88/138]
+Starting modulogram for CH086 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 086 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-26 23:55:11]     -> Channel 085 (Posterior Orbitofrontal) [89/138]
+Starting modulogram for CH085 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 085 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-26 23:56:30]     -> Channel 084 (Posterior Orbitofrontal) [90/138]
+Starting modulogram for CH084 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 084 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-26 23:57:48]     -> Channel 083 (Posterior Orbitofrontal) [91/138]
+Starting modulogram for CH083 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 083 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-26 23:59:07]     -> Channel 082 (Posterior Orbitofrontal) [92/138]
+Starting modulogram for CH082 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 082 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-27 00:00:25]     -> Channel 081 (Posterior Orbitofrontal) [93/138]
+Starting modulogram for CH081 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 081 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-27 00:01:44]     -> Channel 080 (Posterior Orbitofrontal) [94/138]
+Starting modulogram for CH080 (Posterior Orbitofrontal): 11 trials and 31 gamma bands
+[✓] Completed channel 080 (Posterior Orbitofrontal) with 11 trials and 31 gamma bands.
+[2025-06-27 00:03:02]     -> Channel 102 (Planum Polare) [95/138]
+Starting modulogram for CH102 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 102 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-27 00:04:21]     -> Channel 101 (Planum Polare) [96/138]
+Starting modulogram for CH101 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 101 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-27 00:05:39]     -> Channel 100 (Planum Polare) [97/138]
+Starting modulogram for CH100 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 100 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-27 00:06:57]     -> Channel 099 (Planum Polare) [98/138]
+Starting modulogram for CH099 (Planum Polare): 11 trials and 31 gamma bands
+[✓] Completed channel 099 (Planum Polare) with 11 trials and 31 gamma bands.
+[2025-06-27 00:08:16]     -> Channel 098 (Sylvian Fissure) [99/138]
+Starting modulogram for CH098 (Sylvian Fissure): 11 trials and 31 gamma bands
+[✓] Completed channel 098 (Sylvian Fissure) with 11 trials and 31 gamma bands.
+[2025-06-27 00:09:34]     -> Channel 097 (Ventral Insula) [100/138]
+Starting modulogram for CH097 (Ventral Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 097 (Ventral Insula) with 11 trials and 31 gamma bands.
+[2025-06-27 00:10:53]     -> Channel 096 (Ventral Insula) [101/138]
+Starting modulogram for CH096 (Ventral Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 096 (Ventral Insula) with 11 trials and 31 gamma bands.
+[2025-06-27 00:12:11]     -> Channel 095 (Ventral Insula) [102/138]
+Starting modulogram for CH095 (Ventral Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 095 (Ventral Insula) with 11 trials and 31 gamma bands.
+[2025-06-27 00:13:29]     -> Channel 120 (Out) [103/138]
+Starting modulogram for CH120 (Out): 11 trials and 31 gamma bands
+[✓] Completed channel 120 (Out) with 11 trials and 31 gamma bands.
+[2025-06-27 00:14:47]     -> Channel 119 (Planum Temporale) [104/138]
+Starting modulogram for CH119 (Planum Temporale): 11 trials and 31 gamma bands
+[✓] Completed channel 119 (Planum Temporale) with 11 trials and 31 gamma bands.
+[2025-06-27 00:16:06]     -> Channel 118 (Planum Temporale) [105/138]
+Starting modulogram for CH118 (Planum Temporale): 11 trials and 31 gamma bands
+[✓] Completed channel 118 (Planum Temporale) with 11 trials and 31 gamma bands.
+[2025-06-27 00:17:24]     -> Channel 117 (Planum Temporale) [106/138]
+Starting modulogram for CH117 (Planum Temporale): 11 trials and 31 gamma bands
+[✓] Completed channel 117 (Planum Temporale) with 11 trials and 31 gamma bands.
+[2025-06-27 00:18:42]     -> Channel 116 (Planum Temporale) [107/138]
+Starting modulogram for CH116 (Planum Temporale): 11 trials and 31 gamma bands
+[✓] Completed channel 116 (Planum Temporale) with 11 trials and 31 gamma bands.
+[2025-06-27 00:20:00]     -> Channel 115 (Planum Temporale) [108/138]
+Starting modulogram for CH115 (Planum Temporale): 11 trials and 31 gamma bands
+[✓] Completed channel 115 (Planum Temporale) with 11 trials and 31 gamma bands.
+[2025-06-27 00:21:19]     -> Channel 114 (Planum Temporale) [109/138]
+Starting modulogram for CH114 (Planum Temporale): 11 trials and 31 gamma bands
+[✓] Completed channel 114 (Planum Temporale) with 11 trials and 31 gamma bands.
+[2025-06-27 00:22:37]     -> Channel 113 (Heschl's Gyrus) [110/138]
+Starting modulogram for CH113 (Heschl's Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 113 (Heschl's Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-27 00:23:56]     -> Channel 112 (Heschl's Gyrus) [111/138]
+Starting modulogram for CH112 (Heschl's Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 112 (Heschl's Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-27 00:25:14]     -> Channel 111 (Heschl's Gyrus) [112/138]
+Starting modulogram for CH111 (Heschl's Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 111 (Heschl's Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-27 00:26:32]     -> Channel 110 (Heschl's Gyrus) [113/138]
+Starting modulogram for CH110 (Heschl's Gyrus): 11 trials and 31 gamma bands
+[✓] Completed channel 110 (Heschl's Gyrus) with 11 trials and 31 gamma bands.
+[2025-06-27 00:27:51]     -> Channel 109 (Posterior Insula) [114/138]
+Starting modulogram for CH109 (Posterior Insula): 11 trials and 31 gamma bands
+[✓] Completed channel 109 (Posterior Insula) with 11 trials and 31 gamma bands.
+[2025-06-27 00:29:09]     -> Channel 108 (WM) [115/138]
+Starting modulogram for CH108 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 108 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:30:27]     -> Channel 107 (WM) [116/138]
+Starting modulogram for CH107 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 107 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:31:46]     -> Channel 106 (Pulvinar) [117/138]
+Starting modulogram for CH106 (Pulvinar): 11 trials and 31 gamma bands
+[✓] Completed channel 106 (Pulvinar) with 11 trials and 31 gamma bands.
+[2025-06-27 00:33:04]     -> Channel 105 (Pulvinar) [118/138]
+Starting modulogram for CH105 (Pulvinar): 11 trials and 31 gamma bands
+[✓] Completed channel 105 (Pulvinar) with 11 trials and 31 gamma bands.
+[2025-06-27 00:34:22]     -> Channel 104 (Pulvinar) [119/138]
+Starting modulogram for CH104 (Pulvinar): 11 trials and 31 gamma bands
+[✓] Completed channel 104 (Pulvinar) with 11 trials and 31 gamma bands.
+[2025-06-27 00:35:40]     -> Channel 103 (Pulvinar) [120/138]
+Starting modulogram for CH103 (Pulvinar): 11 trials and 31 gamma bands
+[✓] Completed channel 103 (Pulvinar) with 11 trials and 31 gamma bands.
+[2025-06-27 00:36:59]     -> Channel 138 (WM) [121/138]
+Starting modulogram for CH138 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 138 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:38:17]     -> Channel 137 (WM) [122/138]
+Starting modulogram for CH137 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 137 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:39:36]     -> Channel 136 (WM) [123/138]
+Starting modulogram for CH136 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 136 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:40:54]     -> Channel 135 (WM) [124/138]
+Starting modulogram for CH135 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 135 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:42:13]     -> Channel 134 (WM) [125/138]
+Starting modulogram for CH134 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 134 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:43:31]     -> Channel 133 (WM) [126/138]
+Starting modulogram for CH133 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 133 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:44:49]     -> Channel 132 (WM) [127/138]
+Starting modulogram for CH132 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 132 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:46:08]     -> Channel 131 (WM) [128/138]
+Starting modulogram for CH131 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 131 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:47:26]     -> Channel 130 (WM) [129/138]
+Starting modulogram for CH130 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 130 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:48:44]     -> Channel 129 (WM) [130/138]
+Starting modulogram for CH129 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 129 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:50:02]     -> Channel 128 (WM) [131/138]
+Starting modulogram for CH128 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 128 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:51:21]     -> Channel 127 (WM) [132/138]
+Starting modulogram for CH127 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 127 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:52:39]     -> Channel 126 (WM) [133/138]
+Starting modulogram for CH126 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 126 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:53:58]     -> Channel 125 (WM) [134/138]
+Starting modulogram for CH125 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 125 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:55:16]     -> Channel 124 (WM) [135/138]
+Starting modulogram for CH124 (WM): 11 trials and 31 gamma bands
+[✓] Completed channel 124 (WM) with 11 trials and 31 gamma bands.
+[2025-06-27 00:56:34]     -> Channel 123 (Posterior Cingulate) [136/138]
+Starting modulogram for CH123 (Posterior Cingulate): 11 trials and 31 gamma bands
+[✓] Completed channel 123 (Posterior Cingulate) with 11 trials and 31 gamma bands.
+[2025-06-27 00:57:53]     -> Channel 122 (Posterior Cingulate) [137/138]
+Starting modulogram for CH122 (Posterior Cingulate): 11 trials and 31 gamma bands
+[✓] Completed channel 122 (Posterior Cingulate) with 11 trials and 31 gamma bands.
+[2025-06-27 00:59:11]     -> Channel 121 (Posterior Cingulate) [138/138]
+Starting modulogram for CH121 (Posterior Cingulate): 11 trials and 31 gamma bands
+[✓] Completed channel 121 (Posterior Cingulate) with 11 trials and 31 gamma bands.
+[2025-06-27 01:00:30]   Saved subject data to /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session2_bw5_bins36/EMU024_session2_struct.mat
+[2025-06-27 01:00:30] Saved combined data to /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session2_bw5_bins36/allSubjects_session2_20250627_010030.mat
+
+--- Run started at 27-Jun-2025 01:00:30 ---
+Subject: EMU024
+Alignment: win
+Session: 3
+Modulated Range: [30 120]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session3_bw5_bins36
+[2025-06-27 01:00:30] ===== Modulogram Pipeline =====
+[2025-06-27 01:00:30] Subjects: 1
+[2025-06-27 01:00:30] Session : 3
+[2025-06-27 01:00:30] Alignments: win
+[2025-06-27 01:00:30] 
+=== [1/1] Subject EMU024 | Session 3 ===
+[2025-06-27 01:00:30]   Loaded setup: 138 channels
+[2025-06-27 01:00:30]   -> Alignment 1/1: win
+[2025-06-27 01:00:30]     -> Channel 057 (Anterior Middle Temporal Gyrus) [1/138]
+Starting modulogram for CH057 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 057 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:01:23]     -> Channel 056 (Anterior Middle Temporal Gyrus) [2/138]
+Starting modulogram for CH056 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 056 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:02:15]     -> Channel 055 (Anterior Middle Temporal Gyrus) [3/138]
+Starting modulogram for CH055 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 055 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:03:08]     -> Channel 054 (Anterior Middle Temporal Gyrus) [4/138]
+Starting modulogram for CH054 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 054 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:04:00]     -> Channel 053 (Anterior Middle Temporal Gyrus) [5/138]
+Starting modulogram for CH053 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 053 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:04:53]     -> Channel 052 (Anterior Middle Temporal Gyrus) [6/138]
+Starting modulogram for CH052 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 052 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:05:45]     -> Channel 051 (Anterior Middle Temporal Gyrus) [7/138]
+Starting modulogram for CH051 (Anterior Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 051 (Anterior Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:06:38]     -> Channel 050 (Insula) [8/138]
+Starting modulogram for CH050 (Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 050 (Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 01:07:30]     -> Channel 049 (WM (Temporal Stem)*) [9/138]
+Starting modulogram for CH049 (WM (Temporal Stem)*): 1 trials and 31 gamma bands
+[✓] Completed channel 049 (WM (Temporal Stem)*) with 1 trials and 31 gamma bands.
+[2025-06-27 01:08:23]     -> Channel 048 (WM (Temporal Stem)*) [10/138]
+Starting modulogram for CH048 (WM (Temporal Stem)*): 1 trials and 31 gamma bands
+[✓] Completed channel 048 (WM (Temporal Stem)*) with 1 trials and 31 gamma bands.
+[2025-06-27 01:09:16]     -> Channel 047 (WM (Temporal Stem)*) [11/138]
+Starting modulogram for CH047 (WM (Temporal Stem)*): 1 trials and 31 gamma bands
+[✓] Completed channel 047 (WM (Temporal Stem)*) with 1 trials and 31 gamma bands.
+[2025-06-27 01:10:08]     -> Channel 046 (Amygdala) [12/138]
+Starting modulogram for CH046 (Amygdala): 1 trials and 31 gamma bands
+[✓] Completed channel 046 (Amygdala) with 1 trials and 31 gamma bands.
+[2025-06-27 01:11:01]     -> Channel 045 (Amygdala) [13/138]
+Starting modulogram for CH045 (Amygdala): 1 trials and 31 gamma bands
+[✓] Completed channel 045 (Amygdala) with 1 trials and 31 gamma bands.
+[2025-06-27 01:11:53]     -> Channel 044 (Amygdala) [14/138]
+Starting modulogram for CH044 (Amygdala): 1 trials and 31 gamma bands
+[✓] Completed channel 044 (Amygdala) with 1 trials and 31 gamma bands.
+[2025-06-27 01:12:47]     -> Channel 043 (Amygdala) [15/138]
+Starting modulogram for CH043 (Amygdala): 1 trials and 31 gamma bands
+[✓] Completed channel 043 (Amygdala) with 1 trials and 31 gamma bands.
+[2025-06-27 01:13:39]     -> Channel 042 (Middle Temporal Gyrus) [16/138]
+Starting modulogram for CH042 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 042 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:14:32]     -> Channel 041 (Middle Temporal Gyrus) [17/138]
+Starting modulogram for CH041 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 041 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:15:25]     -> Channel 040 (Middle Temporal Gyrus) [18/138]
+Starting modulogram for CH040 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 040 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:16:17]     -> Channel 039 (Middle Temporal Gyrus) [19/138]
+Starting modulogram for CH039 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 039 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:17:10]     -> Channel 038 (Middle Temporal Gyrus) [20/138]
+Starting modulogram for CH038 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 038 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:18:02]     -> Channel 037 (Middle Temporal Gyrus) [21/138]
+Starting modulogram for CH037 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 037 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:18:55]     -> Channel 036 (Middle Temporal Gyrus) [22/138]
+Starting modulogram for CH036 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 036 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:19:48]     -> Channel 035 (WM) [23/138]
+Starting modulogram for CH035 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 035 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 01:20:40]     -> Channel 034 (WM) [24/138]
+Starting modulogram for CH034 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 034 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 01:21:33]     -> Channel 033 (WM) [25/138]
+Starting modulogram for CH033 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 033 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 01:22:25]     -> Channel 032 (Hippocampus Head) [26/138]
+Starting modulogram for CH032 (Hippocampus Head): 1 trials and 31 gamma bands
+[✓] Completed channel 032 (Hippocampus Head) with 1 trials and 31 gamma bands.
+[2025-06-27 01:23:19]     -> Channel 031 (Hippocampus Head) [27/138]
+Starting modulogram for CH031 (Hippocampus Head): 1 trials and 31 gamma bands
+[✓] Completed channel 031 (Hippocampus Head) with 1 trials and 31 gamma bands.
+[2025-06-27 01:24:12]     -> Channel 030 (Hippocampus Head) [28/138]
+Starting modulogram for CH030 (Hippocampus Head): 1 trials and 31 gamma bands
+[✓] Completed channel 030 (Hippocampus Head) with 1 trials and 31 gamma bands.
+[2025-06-27 01:25:05]     -> Channel 029 (Hippocampus Head) [29/138]
+Starting modulogram for CH029 (Hippocampus Head): 1 trials and 31 gamma bands
+[✓] Completed channel 029 (Hippocampus Head) with 1 trials and 31 gamma bands.
+[2025-06-27 01:25:58]     -> Channel 028 (Hippocampus Head) [30/138]
+Starting modulogram for CH028 (Hippocampus Head): 1 trials and 31 gamma bands
+[✓] Completed channel 028 (Hippocampus Head) with 1 trials and 31 gamma bands.
+[2025-06-27 01:26:50]     -> Channel 027 (Posterior Superior Temporal Sulcus) [31/138]
+Starting modulogram for CH027 (Posterior Superior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 027 (Posterior Superior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:27:43]     -> Channel 026 (Posterior Superior Temporal Sulcus) [32/138]
+Starting modulogram for CH026 (Posterior Superior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 026 (Posterior Superior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:28:35]     -> Channel 025 (Posterior Superior Temporal Sulcus) [33/138]
+Starting modulogram for CH025 (Posterior Superior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 025 (Posterior Superior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:29:28]     -> Channel 024 (Posterior Superior Temporal Sulcus) [34/138]
+Starting modulogram for CH024 (Posterior Superior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 024 (Posterior Superior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:30:20]     -> Channel 023 (Posterior Superior Temporal Sulcus) [35/138]
+Starting modulogram for CH023 (Posterior Superior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 023 (Posterior Superior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:31:13]     -> Channel 022 (Posterior Superior Temporal Sulcus) [36/138]
+Starting modulogram for CH022 (Posterior Superior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 022 (Posterior Superior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:32:06]     -> Channel 021 (WM) [37/138]
+Starting modulogram for CH021 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 021 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 01:32:58]     -> Channel 020 (WM) [38/138]
+Starting modulogram for CH020 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 020 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 01:33:51]     -> Channel 019 (WM) [39/138]
+Starting modulogram for CH019 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 019 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 01:34:44]     -> Channel 018 (Hippocampus Tail) [40/138]
+Starting modulogram for CH018 (Hippocampus Tail): 1 trials and 31 gamma bands
+[✓] Completed channel 018 (Hippocampus Tail) with 1 trials and 31 gamma bands.
+[2025-06-27 01:35:36]     -> Channel 017 (Hippocampus Tail) [41/138]
+Starting modulogram for CH017 (Hippocampus Tail): 1 trials and 31 gamma bands
+[✓] Completed channel 017 (Hippocampus Tail) with 1 trials and 31 gamma bands.
+[2025-06-27 01:36:29]     -> Channel 016 (Posterior Parahippocampal) [42/138]
+Starting modulogram for CH016 (Posterior Parahippocampal): 1 trials and 31 gamma bands
+[✓] Completed channel 016 (Posterior Parahippocampal) with 1 trials and 31 gamma bands.
+[2025-06-27 01:37:21]     -> Channel 015 (Posterior Parahippocampal) [43/138]
+Starting modulogram for CH015 (Posterior Parahippocampal): 1 trials and 31 gamma bands
+[✓] Completed channel 015 (Posterior Parahippocampal) with 1 trials and 31 gamma bands.
+[2025-06-27 01:38:14]     -> Channel 014 (Posterior Parahippocampal) [44/138]
+Starting modulogram for CH014 (Posterior Parahippocampal): 1 trials and 31 gamma bands
+[✓] Completed channel 014 (Posterior Parahippocampal) with 1 trials and 31 gamma bands.
+[2025-06-27 01:39:07]     -> Channel 013 (Posterior Parahippocampal) [45/138]
+Starting modulogram for CH013 (Posterior Parahippocampal): 1 trials and 31 gamma bands
+[✓] Completed channel 013 (Posterior Parahippocampal) with 1 trials and 31 gamma bands.
+[2025-06-27 01:40:00]     -> Channel 069 (Inferior Temporal Sulcus) [46/138]
+Starting modulogram for CH069 (Inferior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 069 (Inferior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:40:52]     -> Channel 068 (Inferior Temporal Sulcus) [47/138]
+Starting modulogram for CH068 (Inferior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 068 (Inferior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:41:45]     -> Channel 067 (Inferior Temporal Sulcus) [48/138]
+Starting modulogram for CH067 (Inferior Temporal Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 067 (Inferior Temporal Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:42:37]     -> Channel 066 (Fusiform Gyrus) [49/138]
+Starting modulogram for CH066 (Fusiform Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 066 (Fusiform Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:43:30]     -> Channel 065 (Fusiform Gyrus) [50/138]
+Starting modulogram for CH065 (Fusiform Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 065 (Fusiform Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:44:23]     -> Channel 064 (Fusiform Gyrus) [51/138]
+Starting modulogram for CH064 (Fusiform Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 064 (Fusiform Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:45:15]     -> Channel 063 (Collateral Sulcus) [52/138]
+Starting modulogram for CH063 (Collateral Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 063 (Collateral Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:46:08]     -> Channel 062 (Collateral Sulcus) [53/138]
+Starting modulogram for CH062 (Collateral Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 062 (Collateral Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:47:00]     -> Channel 061 (Collateral Sulcus) [54/138]
+Starting modulogram for CH061 (Collateral Sulcus): 1 trials and 31 gamma bands
+[✓] Completed channel 061 (Collateral Sulcus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:47:53]     -> Channel 060 (Entorhinal Cortex) [55/138]
+Starting modulogram for CH060 (Entorhinal Cortex): 1 trials and 31 gamma bands
+[✓] Completed channel 060 (Entorhinal Cortex) with 1 trials and 31 gamma bands.
+[2025-06-27 01:48:45]     -> Channel 059 (Entorhinal Cortex) [56/138]
+Starting modulogram for CH059 (Entorhinal Cortex): 1 trials and 31 gamma bands
+[✓] Completed channel 059 (Entorhinal Cortex) with 1 trials and 31 gamma bands.
+[2025-06-27 01:49:38]     -> Channel 058 (Entorhinal Cortex) [57/138]
+Starting modulogram for CH058 (Entorhinal Cortex): 1 trials and 31 gamma bands
+[✓] Completed channel 058 (Entorhinal Cortex) with 1 trials and 31 gamma bands.
+[2025-06-27 01:50:31]     -> Channel 012 (Basal Inferior Temporal Gyrus) [58/138]
+Starting modulogram for CH012 (Basal Inferior Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 012 (Basal Inferior Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:51:23]     -> Channel 011 (Basal Inferior Temporal Gyrus) [59/138]
+Starting modulogram for CH011 (Basal Inferior Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 011 (Basal Inferior Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:52:16]     -> Channel 010 (Basal Inferior Temporal Gyrus) [60/138]
+Starting modulogram for CH010 (Basal Inferior Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 010 (Basal Inferior Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:53:09]     -> Channel 009 (Basal Inferior Temporal Gyrus) [61/138]
+Starting modulogram for CH009 (Basal Inferior Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 009 (Basal Inferior Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:54:02]     -> Channel 008 (Basal Inferior Temporal Gyrus) [62/138]
+Starting modulogram for CH008 (Basal Inferior Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 008 (Basal Inferior Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:54:54]     -> Channel 007 (Basal Inferior Temporal Gyrus) [63/138]
+Starting modulogram for CH007 (Basal Inferior Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 007 (Basal Inferior Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:55:47]     -> Channel 006 (Temporal Occipital Sulcus*) [64/138]
+Starting modulogram for CH006 (Temporal Occipital Sulcus*): 1 trials and 31 gamma bands
+[✓] Completed channel 006 (Temporal Occipital Sulcus*) with 1 trials and 31 gamma bands.
+[2025-06-27 01:56:39]     -> Channel 005 (Fusiform Gyrus) [65/138]
+Starting modulogram for CH005 (Fusiform Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 005 (Fusiform Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:57:32]     -> Channel 004 (Fusiform Gyrus) [66/138]
+Starting modulogram for CH004 (Fusiform Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 004 (Fusiform Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:58:24]     -> Channel 003 (Fusiform Gyrus) [67/138]
+Starting modulogram for CH003 (Fusiform Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 003 (Fusiform Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 01:59:17]     -> Channel 002 (Parahippocampal) [68/138]
+Starting modulogram for CH002 (Parahippocampal): 1 trials and 31 gamma bands
+[✓] Completed channel 002 (Parahippocampal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:00:09]     -> Channel 001 (Parahippocampal) [69/138]
+Starting modulogram for CH001 (Parahippocampal): 1 trials and 31 gamma bands
+[✓] Completed channel 001 (Parahippocampal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:01:02]     -> Channel 079 (Out) [70/138]
+Starting modulogram for CH079 (Out): 1 trials and 31 gamma bands
+[✓] Completed channel 079 (Out) with 1 trials and 31 gamma bands.
+[2025-06-27 02:01:54]     -> Channel 078 (Out) [71/138]
+Starting modulogram for CH078 (Out): 1 trials and 31 gamma bands
+[✓] Completed channel 078 (Out) with 1 trials and 31 gamma bands.
+[2025-06-27 02:02:47]     -> Channel 077 (Middle Temporal Gyrus) [72/138]
+Starting modulogram for CH077 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 077 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 02:03:39]     -> Channel 076 (Middle Temporal Gyrus) [73/138]
+Starting modulogram for CH076 (Middle Temporal Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 076 (Middle Temporal Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 02:04:32]     -> Channel 075 (Temporal Pole*) [74/138]
+Starting modulogram for CH075 (Temporal Pole*): 1 trials and 31 gamma bands
+[✓] Completed channel 075 (Temporal Pole*) with 1 trials and 31 gamma bands.
+[2025-06-27 02:05:25]     -> Channel 074 (Temporal Pole*) [75/138]
+Starting modulogram for CH074 (Temporal Pole*): 1 trials and 31 gamma bands
+[✓] Completed channel 074 (Temporal Pole*) with 1 trials and 31 gamma bands.
+[2025-06-27 02:06:17]     -> Channel 073 (Temporal Pole*) [76/138]
+Starting modulogram for CH073 (Temporal Pole*): 1 trials and 31 gamma bands
+[✓] Completed channel 073 (Temporal Pole*) with 1 trials and 31 gamma bands.
+[2025-06-27 02:07:10]     -> Channel 072 (Temporal Pole*) [77/138]
+Starting modulogram for CH072 (Temporal Pole*): 1 trials and 31 gamma bands
+[✓] Completed channel 072 (Temporal Pole*) with 1 trials and 31 gamma bands.
+[2025-06-27 02:08:03]     -> Channel 071 (Temporal Pole*) [78/138]
+Starting modulogram for CH071 (Temporal Pole*): 1 trials and 31 gamma bands
+[✓] Completed channel 071 (Temporal Pole*) with 1 trials and 31 gamma bands.
+[2025-06-27 02:08:55]     -> Channel 070 (Temporal Pole*) [79/138]
+Starting modulogram for CH070 (Temporal Pole*): 1 trials and 31 gamma bands
+[✓] Completed channel 070 (Temporal Pole*) with 1 trials and 31 gamma bands.
+[2025-06-27 02:09:48]     -> Channel 094 (Planum Polare) [80/138]
+Starting modulogram for CH094 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 094 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:10:41]     -> Channel 093 (Planum Polare) [81/138]
+Starting modulogram for CH093 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 093 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:11:33]     -> Channel 092 (Planum Polare) [82/138]
+Starting modulogram for CH092 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 092 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:12:26]     -> Channel 091 (Planum Polare) [83/138]
+Starting modulogram for CH091 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 091 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:13:18]     -> Channel 090 (Sylvian Fissure) [84/138]
+Starting modulogram for CH090 (Sylvian Fissure): 1 trials and 31 gamma bands
+[✓] Completed channel 090 (Sylvian Fissure) with 1 trials and 31 gamma bands.
+[2025-06-27 02:14:11]     -> Channel 089 (Ventral Insula) [85/138]
+Starting modulogram for CH089 (Ventral Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 089 (Ventral Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:15:03]     -> Channel 088 (Ventral Insula) [86/138]
+Starting modulogram for CH088 (Ventral Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 088 (Ventral Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:15:56]     -> Channel 087 (Ventral Insula) [87/138]
+Starting modulogram for CH087 (Ventral Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 087 (Ventral Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:16:48]     -> Channel 086 (Posterior Orbitofrontal) [88/138]
+Starting modulogram for CH086 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 086 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:17:41]     -> Channel 085 (Posterior Orbitofrontal) [89/138]
+Starting modulogram for CH085 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 085 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:18:33]     -> Channel 084 (Posterior Orbitofrontal) [90/138]
+Starting modulogram for CH084 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 084 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:19:26]     -> Channel 083 (Posterior Orbitofrontal) [91/138]
+Starting modulogram for CH083 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 083 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:20:19]     -> Channel 082 (Posterior Orbitofrontal) [92/138]
+Starting modulogram for CH082 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 082 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:21:11]     -> Channel 081 (Posterior Orbitofrontal) [93/138]
+Starting modulogram for CH081 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 081 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:22:04]     -> Channel 080 (Posterior Orbitofrontal) [94/138]
+Starting modulogram for CH080 (Posterior Orbitofrontal): 1 trials and 31 gamma bands
+[✓] Completed channel 080 (Posterior Orbitofrontal) with 1 trials and 31 gamma bands.
+[2025-06-27 02:22:56]     -> Channel 102 (Planum Polare) [95/138]
+Starting modulogram for CH102 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 102 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:23:49]     -> Channel 101 (Planum Polare) [96/138]
+Starting modulogram for CH101 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 101 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:24:42]     -> Channel 100 (Planum Polare) [97/138]
+Starting modulogram for CH100 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 100 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:25:34]     -> Channel 099 (Planum Polare) [98/138]
+Starting modulogram for CH099 (Planum Polare): 1 trials and 31 gamma bands
+[✓] Completed channel 099 (Planum Polare) with 1 trials and 31 gamma bands.
+[2025-06-27 02:26:27]     -> Channel 098 (Sylvian Fissure) [99/138]
+Starting modulogram for CH098 (Sylvian Fissure): 1 trials and 31 gamma bands
+[✓] Completed channel 098 (Sylvian Fissure) with 1 trials and 31 gamma bands.
+[2025-06-27 02:27:20]     -> Channel 097 (Ventral Insula) [100/138]
+Starting modulogram for CH097 (Ventral Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 097 (Ventral Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:28:12]     -> Channel 096 (Ventral Insula) [101/138]
+Starting modulogram for CH096 (Ventral Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 096 (Ventral Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:29:05]     -> Channel 095 (Ventral Insula) [102/138]
+Starting modulogram for CH095 (Ventral Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 095 (Ventral Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:29:57]     -> Channel 120 (Out) [103/138]
+Starting modulogram for CH120 (Out): 1 trials and 31 gamma bands
+[✓] Completed channel 120 (Out) with 1 trials and 31 gamma bands.
+[2025-06-27 02:30:50]     -> Channel 119 (Planum Temporale) [104/138]
+Starting modulogram for CH119 (Planum Temporale): 1 trials and 31 gamma bands
+[✓] Completed channel 119 (Planum Temporale) with 1 trials and 31 gamma bands.
+[2025-06-27 02:31:42]     -> Channel 118 (Planum Temporale) [105/138]
+Starting modulogram for CH118 (Planum Temporale): 1 trials and 31 gamma bands
+[✓] Completed channel 118 (Planum Temporale) with 1 trials and 31 gamma bands.
+[2025-06-27 02:32:35]     -> Channel 117 (Planum Temporale) [106/138]
+Starting modulogram for CH117 (Planum Temporale): 1 trials and 31 gamma bands
+[✓] Completed channel 117 (Planum Temporale) with 1 trials and 31 gamma bands.
+[2025-06-27 02:33:27]     -> Channel 116 (Planum Temporale) [107/138]
+Starting modulogram for CH116 (Planum Temporale): 1 trials and 31 gamma bands
+[✓] Completed channel 116 (Planum Temporale) with 1 trials and 31 gamma bands.
+[2025-06-27 02:34:20]     -> Channel 115 (Planum Temporale) [108/138]
+Starting modulogram for CH115 (Planum Temporale): 1 trials and 31 gamma bands
+[✓] Completed channel 115 (Planum Temporale) with 1 trials and 31 gamma bands.
+[2025-06-27 02:35:12]     -> Channel 114 (Planum Temporale) [109/138]
+Starting modulogram for CH114 (Planum Temporale): 1 trials and 31 gamma bands
+[✓] Completed channel 114 (Planum Temporale) with 1 trials and 31 gamma bands.
+[2025-06-27 02:36:05]     -> Channel 113 (Heschl's Gyrus) [110/138]
+Starting modulogram for CH113 (Heschl's Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 113 (Heschl's Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 02:36:58]     -> Channel 112 (Heschl's Gyrus) [111/138]
+Starting modulogram for CH112 (Heschl's Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 112 (Heschl's Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 02:37:51]     -> Channel 111 (Heschl's Gyrus) [112/138]
+Starting modulogram for CH111 (Heschl's Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 111 (Heschl's Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 02:38:44]     -> Channel 110 (Heschl's Gyrus) [113/138]
+Starting modulogram for CH110 (Heschl's Gyrus): 1 trials and 31 gamma bands
+[✓] Completed channel 110 (Heschl's Gyrus) with 1 trials and 31 gamma bands.
+[2025-06-27 02:39:37]     -> Channel 109 (Posterior Insula) [114/138]
+Starting modulogram for CH109 (Posterior Insula): 1 trials and 31 gamma bands
+[✓] Completed channel 109 (Posterior Insula) with 1 trials and 31 gamma bands.
+[2025-06-27 02:40:29]     -> Channel 108 (WM) [115/138]
+Starting modulogram for CH108 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 108 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:41:25]     -> Channel 107 (WM) [116/138]
+Starting modulogram for CH107 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 107 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:42:18]     -> Channel 106 (Pulvinar) [117/138]
+Starting modulogram for CH106 (Pulvinar): 1 trials and 31 gamma bands
+[✓] Completed channel 106 (Pulvinar) with 1 trials and 31 gamma bands.
+[2025-06-27 02:43:10]     -> Channel 105 (Pulvinar) [118/138]
+Starting modulogram for CH105 (Pulvinar): 1 trials and 31 gamma bands
+[✓] Completed channel 105 (Pulvinar) with 1 trials and 31 gamma bands.
+[2025-06-27 02:44:03]     -> Channel 104 (Pulvinar) [119/138]
+Starting modulogram for CH104 (Pulvinar): 1 trials and 31 gamma bands
+[✓] Completed channel 104 (Pulvinar) with 1 trials and 31 gamma bands.
+[2025-06-27 02:44:56]     -> Channel 103 (Pulvinar) [120/138]
+Starting modulogram for CH103 (Pulvinar): 1 trials and 31 gamma bands
+[✓] Completed channel 103 (Pulvinar) with 1 trials and 31 gamma bands.
+[2025-06-27 02:45:48]     -> Channel 138 (WM) [121/138]
+Starting modulogram for CH138 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 138 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:46:41]     -> Channel 137 (WM) [122/138]
+Starting modulogram for CH137 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 137 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:47:34]     -> Channel 136 (WM) [123/138]
+Starting modulogram for CH136 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 136 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:48:26]     -> Channel 135 (WM) [124/138]
+Starting modulogram for CH135 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 135 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:49:19]     -> Channel 134 (WM) [125/138]
+Starting modulogram for CH134 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 134 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:50:12]     -> Channel 133 (WM) [126/138]
+Starting modulogram for CH133 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 133 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:51:04]     -> Channel 132 (WM) [127/138]
+Starting modulogram for CH132 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 132 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:51:57]     -> Channel 131 (WM) [128/138]
+Starting modulogram for CH131 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 131 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:52:50]     -> Channel 130 (WM) [129/138]
+Starting modulogram for CH130 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 130 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:53:43]     -> Channel 129 (WM) [130/138]
+Starting modulogram for CH129 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 129 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:54:36]     -> Channel 128 (WM) [131/138]
+Starting modulogram for CH128 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 128 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:55:28]     -> Channel 127 (WM) [132/138]
+Starting modulogram for CH127 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 127 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:56:21]     -> Channel 126 (WM) [133/138]
+Starting modulogram for CH126 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 126 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:57:13]     -> Channel 125 (WM) [134/138]
+Starting modulogram for CH125 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 125 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:58:06]     -> Channel 124 (WM) [135/138]
+Starting modulogram for CH124 (WM): 1 trials and 31 gamma bands
+[✓] Completed channel 124 (WM) with 1 trials and 31 gamma bands.
+[2025-06-27 02:58:59]     -> Channel 123 (Posterior Cingulate) [136/138]
+Starting modulogram for CH123 (Posterior Cingulate): 1 trials and 31 gamma bands
+[✓] Completed channel 123 (Posterior Cingulate) with 1 trials and 31 gamma bands.
+[2025-06-27 02:59:51]     -> Channel 122 (Posterior Cingulate) [137/138]
+Starting modulogram for CH122 (Posterior Cingulate): 1 trials and 31 gamma bands
+[✓] Completed channel 122 (Posterior Cingulate) with 1 trials and 31 gamma bands.
+[2025-06-27 03:00:44]     -> Channel 121 (Posterior Cingulate) [138/138]
+Starting modulogram for CH121 (Posterior Cingulate): 1 trials and 31 gamma bands
+[✓] Completed channel 121 (Posterior Cingulate) with 1 trials and 31 gamma bands.
+[2025-06-27 03:01:39]   Saved subject data to /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session3_bw5_bins36/EMU024_session3_struct.mat
+[2025-06-27 03:01:39] Saved combined data to /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session3_bw5_bins36/allSubjects_session3_20250627_030139.mat
+
+--- Run started at 27-Jun-2025 03:01:39 ---
+Subject: EMU024
+Alignment: win
+Session: 1
+Modulated Range: [20 80]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod20-80_session1_bw5_bins36
+[2025-06-27 03:01:39] ===== Modulogram Pipeline =====
+[2025-06-27 03:01:39] Subjects: 1
+[2025-06-27 03:01:39] Session : 1
+[2025-06-27 03:01:39] Alignments: win
+[2025-06-27 03:01:39] 
+=== [1/1] Subject EMU024 | Session 1 ===
+[2025-06-27 03:01:39]   Loaded setup: 138 channels
+[2025-06-27 03:01:39]   -> Alignment 1/1: win
+[2025-06-27 03:01:39]     -> Channel 057 (Anterior Middle Temporal Gyrus) [1/138]
+Starting modulogram for CH057 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 057 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:02:55]     -> Channel 056 (Anterior Middle Temporal Gyrus) [2/138]
+Starting modulogram for CH056 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 056 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:04:11]     -> Channel 055 (Anterior Middle Temporal Gyrus) [3/138]
+Starting modulogram for CH055 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 055 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:05:27]     -> Channel 054 (Anterior Middle Temporal Gyrus) [4/138]
+Starting modulogram for CH054 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 054 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:06:43]     -> Channel 053 (Anterior Middle Temporal Gyrus) [5/138]
+Starting modulogram for CH053 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 053 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:07:58]     -> Channel 052 (Anterior Middle Temporal Gyrus) [6/138]
+Starting modulogram for CH052 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 052 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:09:14]     -> Channel 051 (Anterior Middle Temporal Gyrus) [7/138]
+Starting modulogram for CH051 (Anterior Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 051 (Anterior Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:10:29]     -> Channel 050 (Insula) [8/138]
+Starting modulogram for CH050 (Insula): 2 trials and 21 gamma bands
+[✓] Completed channel 050 (Insula) with 2 trials and 21 gamma bands.
+[2025-06-27 03:11:44]     -> Channel 049 (WM (Temporal Stem)*) [9/138]
+Starting modulogram for CH049 (WM (Temporal Stem)*): 2 trials and 21 gamma bands
+[✓] Completed channel 049 (WM (Temporal Stem)*) with 2 trials and 21 gamma bands.
+[2025-06-27 03:12:59]     -> Channel 048 (WM (Temporal Stem)*) [10/138]
+Starting modulogram for CH048 (WM (Temporal Stem)*): 2 trials and 21 gamma bands
+[✓] Completed channel 048 (WM (Temporal Stem)*) with 2 trials and 21 gamma bands.
+[2025-06-27 03:14:14]     -> Channel 047 (WM (Temporal Stem)*) [11/138]
+Starting modulogram for CH047 (WM (Temporal Stem)*): 2 trials and 21 gamma bands
+[✓] Completed channel 047 (WM (Temporal Stem)*) with 2 trials and 21 gamma bands.
+[2025-06-27 03:15:29]     -> Channel 046 (Amygdala) [12/138]
+Starting modulogram for CH046 (Amygdala): 2 trials and 21 gamma bands
+[✓] Completed channel 046 (Amygdala) with 2 trials and 21 gamma bands.
+[2025-06-27 03:16:42]     -> Channel 045 (Amygdala) [13/138]
+Starting modulogram for CH045 (Amygdala): 2 trials and 21 gamma bands
+[✓] Completed channel 045 (Amygdala) with 2 trials and 21 gamma bands.
+[2025-06-27 03:17:55]     -> Channel 044 (Amygdala) [14/138]
+Starting modulogram for CH044 (Amygdala): 2 trials and 21 gamma bands
+[✓] Completed channel 044 (Amygdala) with 2 trials and 21 gamma bands.
+[2025-06-27 03:19:08]     -> Channel 043 (Amygdala) [15/138]
+Starting modulogram for CH043 (Amygdala): 2 trials and 21 gamma bands
+[✓] Completed channel 043 (Amygdala) with 2 trials and 21 gamma bands.
+[2025-06-27 03:20:21]     -> Channel 042 (Middle Temporal Gyrus) [16/138]
+Starting modulogram for CH042 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 042 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:21:34]     -> Channel 041 (Middle Temporal Gyrus) [17/138]
+Starting modulogram for CH041 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 041 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:22:46]     -> Channel 040 (Middle Temporal Gyrus) [18/138]
+Starting modulogram for CH040 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 040 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:23:59]     -> Channel 039 (Middle Temporal Gyrus) [19/138]
+Starting modulogram for CH039 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 039 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:25:12]     -> Channel 038 (Middle Temporal Gyrus) [20/138]
+Starting modulogram for CH038 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 038 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:26:25]     -> Channel 037 (Middle Temporal Gyrus) [21/138]
+Starting modulogram for CH037 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 037 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:27:37]     -> Channel 036 (Middle Temporal Gyrus) [22/138]
+Starting modulogram for CH036 (Middle Temporal Gyrus): 2 trials and 21 gamma bands
+[✓] Completed channel 036 (Middle Temporal Gyrus) with 2 trials and 21 gamma bands.
+[2025-06-27 03:28:50]     -> Channel 035 (WM) [23/138]
+Starting modulogram for CH035 (WM): 2 trials and 21 gamma bands
+[✓] Completed channel 035 (WM) with 2 trials and 21 gamma bands.
+[2025-06-27 03:30:03]     -> Channel 034 (WM) [24/138]
+Starting modulogram for CH034 (WM): 2 trials and 21 gamma bands
+[✓] Completed channel 034 (WM) with 2 trials and 21 gamma bands.
+[2025-06-27 03:31:16]     -> Channel 033 (WM) [25/138]
+Starting modulogram for CH033 (WM): 2 trials and 21 gamma bands
+[✓] Completed channel 033 (WM) with 2 trials and 21 gamma bands.
+[2025-06-27 03:32:29]     -> Channel 032 (Hippocampus Head) [26/138]
+Starting modulogram for CH032 (Hippocampus Head): 2 trials and 21 gamma bands
+[✓] Completed channel 032 (Hippocampus Head) with 2 trials and 21 gamma bands.
+[2025-06-27 03:33:42]     -> Channel 031 (Hippocampus Head) [27/138]
+Starting modulogram for CH031 (Hippocampus Head): 2 trials and 21 gamma bands
+[✓] Completed channel 031 (Hippocampus Head) with 2 trials and 21 gamma bands.
+[2025-06-27 03:34:55]     -> Channel 030 (Hippocampus Head) [28/138]
+Starting modulogram for CH030 (Hippocampus Head): 2 trials and 21 gamma bands
+[✓] Completed channel 030 (Hippocampus Head) with 2 trials and 21 gamma bands.
+[2025-06-27 03:36:08]     -> Channel 029 (Hippocampus Head) [29/138]

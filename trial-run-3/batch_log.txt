@@ -1,0 +1,41 @@
+
+==== Batch run started: 26-Jun-2025 17:48:19 ====
+
+--- Run started at 26-Jun-2025 17:48:19 ---
+Subject: EMU024
+Alignment: win
+Session: 1
+Modulated Range: [30 120]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session1_bw5_bins36
+✓ Completed: EMU024_win_mod30-120_session1_bw5_bins36 at 26-Jun-2025 22:00:14
+
+--- Run started at 26-Jun-2025 22:00:14 ---
+Subject: EMU024
+Alignment: win
+Session: 2
+Modulated Range: [30 120]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session2_bw5_bins36
+✓ Completed: EMU024_win_mod30-120_session2_bw5_bins36 at 27-Jun-2025 01:00:30
+
+--- Run started at 27-Jun-2025 01:00:30 ---
+Subject: EMU024
+Alignment: win
+Session: 3
+Modulated Range: [30 120]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod30-120_session3_bw5_bins36
+✓ Completed: EMU024_win_mod30-120_session3_bw5_bins36 at 27-Jun-2025 03:01:39
+
+--- Run started at 27-Jun-2025 03:01:39 ---
+Subject: EMU024
+Alignment: win
+Session: 1
+Modulated Range: [20 80]
+Bandwidth: 5
+Bins: 36
+Output Dir: /home/alabwam1/Desktop/modulogram_V7/trial-run-3/EMU024_win_mod20-80_session1_bw5_bins36
