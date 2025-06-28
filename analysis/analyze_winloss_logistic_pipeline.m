@@ -68,36 +68,54 @@ if ~iscell(channels)
     channels = {channels};
 end
 
-ofcRegex = '(?i)ofc|orbitofrontal';
-decisionRegex = '(?i)ofc|orbitofrontal|insula|amygdala|posterior cingulate|ventral insula';
+regionList = {
+    'Amygdala',
+    'Anterior Middle Temporal Gyrus',
+    'Basal Inferior Temporal Gyrus',
+    'Collateral Sulcus',
+    'Entorhinal Cortex',
+    'Fusiform Gyrus',
+    'Heschl''s Gyrus',
+    'Hippocampus Head',
+    'Hippocampus Tail',
+    'Inferior Temporal Sulcus',
+    'Insula',
+    'Middle Temporal Gyrus',
+    'Out',
+    'Parahippocampal',
+    'Planum Polare',
+    'Planum Temporale',
+    'Posterior Cingulate',
+    'Posterior Insula',
+    'Posterior Orbitofrontal',
+    'Posterior Parahippocampal',
+    'Posterior Superior Temporal Sulcus',
+    'Pulvinar',
+    'Sylvian Fissure',
+    'Temporal Occipital Sulcus',
+    'Temporal Pole',
+    'Ventral Insula',
+    'WM',
+    'WM (Temporal Stem)'
+    };
 
-allIdx = true(1,numel(channels));
-ofcIdx = false(1,numel(channels));
-decisionIdx = false(1,numel(channels));
 
-for c = 1:numel(channels)
-    region = '';
-    try
-        region = char(channels{c}.anatomicalRegion);
-    catch
+for lvl = 1:numel(regionList)
+    lvlName = regionList{lvl};
+    chanMask = false(1,numel(channels));
+    for c = 1:numel(channels)
+        reg = '';
+        try
+            reg = char(channels{c}.anatomicalRegion);
+        catch
+        end
+        reg = regexprep(reg,'\*','');
+        target = regexprep(lvlName,'\*','');
+        if strcmpi(strtrim(reg), strtrim(target))
+            chanMask(c) = true;
+        end
     end
-    if ~isempty(regexp(region, ofcRegex, 'once'))
-        ofcIdx(c) = true;
-    end
-    if ~isempty(regexp(region, decisionRegex, 'once'))
-        decisionIdx(c) = true;
-    end
-end
 
-levels = {
-    struct('name','ALL','mask',allIdx), 
-    struct('name','OFC','mask',ofcIdx),
-    struct('name','DECISION','mask',decisionIdx)
-};
-
-for lvl = 1:numel(levels)
-    lvlName = levels{lvl}.name;
-    chanMask = levels{lvl}.mask;
     fprintf('\n=== Analyzing %s channels (%s) ===\n', lvlName, lvlName);
     chList = channels(chanMask);
     fprintf('Number of channels pooled: %d\n', numel(chList));
@@ -139,7 +157,8 @@ for lvl = 1:numel(levels)
     mdl = fitglm(tbl, formula, 'Distribution','binomial');
 
     %% Result directory
-    sessDir = fullfile(resultsDir, sprintf('Session_%d', sessionNum), lvlName);
+    lvlFolder = regexprep(lvlName, '[^\w]', '_');
+    sessDir = fullfile(resultsDir, sprintf('Session_%d', sessionNum), lvlFolder);
     if ~exist(sessDir,'dir'); mkdir(sessDir); end
 
     %% Save model
@@ -149,6 +168,17 @@ for lvl = 1:numel(levels)
     coefTbl = mdl.Coefficients;
     coefFile = fullfile(sessDir, 'coefficients.csv');
     writetable(coefTbl, coefFile);
+
+    %% Coefficient plot per MI band
+    coefRows = coefTbl.Properties.RowNames;
+    bandMask = startsWith(coefRows, 'Band');
+    bandCoefs = coefTbl.Estimate(bandMask);
+    fig = figure('Visible','off');
+    bar(1:numel(bandCoefs), bandCoefs);
+    xlabel('MI Band'); ylabel('Coefficient');
+    title(sprintf('Regression Coefficients - %s', lvlName));
+    coefPlotPath = fullfile(sessDir,'coefficients_plot.png');
+    print(fig, coefPlotPath,'-dpng'); close(fig);
 
     %% ROC curve
     [X,Y,~,AUC] = perfcurve(tbl.Label, mdl.Fitted.Probability, 1);
