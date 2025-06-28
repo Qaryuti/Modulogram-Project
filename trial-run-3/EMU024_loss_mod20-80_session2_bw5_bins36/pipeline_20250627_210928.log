@@ -1,0 +1,15 @@
+[2025-06-27 21:09:28] ===== Modulogram Pipeline =====
+[2025-06-27 21:09:28] Subjects: 1
+[2025-06-27 21:09:28] Session : 2
+[2025-06-27 21:09:28] Alignments: loss
+[2025-06-27 21:09:28] 
+=== [1/1] Subject EMU024 | Session 2 ===
+[2025-06-27 21:09:28]   Loaded setup: 138 channels
+[2025-06-27 21:09:28]   -> Alignment 1/1: loss
+[2025-06-27 21:09:28]     -> Channel 057 (Anterior Middle Temporal Gyrus) [1/138]
+[2025-06-27 21:10:23]     -> Channel 056 (Anterior Middle Temporal Gyrus) [2/138]
+[2025-06-27 21:11:19]     -> Channel 055 (Anterior Middle Temporal Gyrus) [3/138]
+[2025-06-27 21:12:14]     -> Channel 054 (Anterior Middle Temporal Gyrus) [4/138]
+[2025-06-27 21:13:09]     -> Channel 053 (Anterior Middle Temporal Gyrus) [5/138]
+[2025-06-27 21:14:05]     -> Channel 052 (Anterior Middle Temporal Gyrus) [6/138]
+[2025-06-27 21:15:01]     -> Channel 051 (Anterior Middle Temporal Gyrus) [7/138]

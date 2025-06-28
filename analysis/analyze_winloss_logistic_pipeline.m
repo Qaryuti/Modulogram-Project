@@ -2,7 +2,7 @@ function analyze_winloss_logistic_pipeline(sessionStructPath, resultsDir)
 %ANALYZE_WINLOSS_LOGISTIC_PIPELINE Run win/loss logistic regression on MI data.
 %   ANALYZE_WINLOSS_LOGISTIC_PIPELINE(SESSIONSTRUCTPATH, RESULTSDIR) loads a
 %   session structure containing trial-level modulation index (MI) data and
-%   fits logistic regression models predicting win/loss outcomes from MI.
+%   fits logistic regression models predicting win/loss outcomes from MI.of
 %
 %   Results are saved under RESULTSDIR/Session_X/ with subfolders for all
 %   channels ("ALL") and orbitofrontal cortex channels ("OFC"). The function
@@ -68,25 +68,32 @@ if ~iscell(channels)
     channels = {channels};
 end
 
-%% Identify OFC channels using fuzzy matching
 ofcRegex = '(?i)ofc|orbitofrontal';
+decisionRegex = '(?i)ofc|orbitofrontal|insula|amygdala|posterior cingulate|ventral insula';
+
 allIdx = true(1,numel(channels));
 ofcIdx = false(1,numel(channels));
+decisionIdx = false(1,numel(channels));
+
 for c = 1:numel(channels)
-    chan = channels{c};
     region = '';
     try
-        region = char(chan.anatomicalRegion);
+        region = char(channels{c}.anatomicalRegion);
     catch
-        % ignore
     end
     if ~isempty(regexp(region, ofcRegex, 'once'))
         ofcIdx(c) = true;
     end
+    if ~isempty(regexp(region, decisionRegex, 'once'))
+        decisionIdx(c) = true;
+    end
 end
 
-levels = {struct('name','ALL','mask',allIdx), ...
-          struct('name','OFC','mask',ofcIdx)};
+levels = {
+    struct('name','ALL','mask',allIdx), 
+    struct('name','OFC','mask',ofcIdx),
+    struct('name','DECISION','mask',decisionIdx)
+};
 
 for lvl = 1:numel(levels)
     lvlName = levels{lvl}.name;
@@ -154,7 +161,7 @@ for lvl = 1:numel(levels)
     fprintf('Saved ROC curve to %s\n', rocPath);
 
     %% Confusion matrix
-    predLabels = mdl.Fitted.Probability >= 0.5;
+    predLabels = double(mdl.Fitted.Probability >= 0.5);
     cm = confusionmat(tbl.Label, predLabels);
     fig = figure('Visible','off');
     confusionchart(cm, {'Loss','Win'});
@@ -169,17 +176,23 @@ for lvl = 1:numel(levels)
     winMI = pooledTrialMI(winIdx,:);
     lossMI = pooledTrialMI(lossIdx,:);
 
-    stats = table((1:nBands)', mean(pooledTrialMI), median(pooledTrialMI), ...
-        std(pooledTrialMI), iqr(pooledTrialMI), min(pooledTrialMI), max(pooledTrialMI), ...
-        'VariableNames', {'Band','Mean','Median','Std','IQR','Min','Max'});
-    descFile = fullfile(sessDir, 'descriptives.csv');
+stats = table((1:nBands)', ...
+    mean(pooledTrialMI,1)', ...
+    median(pooledTrialMI,1)', ...
+    std(pooledTrialMI,0,1)', ...
+    iqr(pooledTrialMI,1)', ...
+    min(pooledTrialMI,[],1)', ...
+    max(pooledTrialMI,[],1)', ...
+    'VariableNames', {'Band','Mean','Median','Std','IQR','Min','Max'});
+descFile = fullfile(sessDir, 'descriptives.csv');
     writetable(stats, descFile);
 
     %% Boxplot
     fig = figure('Visible','off');
-    boxplot(pooledTrialMI, tbl.Label, 'Labels',{'Loss','Win'});
-    xlabel('Outcome'); ylabel('MI');
-    title(sprintf('Win vs Loss MI - %s', lvlName));
+    meanMI_perTrial = mean(pooledTrialMI, 2);  % collapse across bands
+    boxplot(meanMI_perTrial, tbl.Label, 'Labels',{'Loss','Win'});
+    xlabel('Outcome'); ylabel('Mean MI across bands');
+    title(sprintf('Win vs Loss Mean MI - %s', lvlName));
     boxPath = fullfile(sessDir,'win_vs_loss_boxplot.png');
     print(fig, boxPath,'-dpng'); close(fig);
     fprintf('Saved boxplot to %s\n', boxPath);

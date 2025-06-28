@@ -1,0 +1,11 @@
+Subject: EMU024
+Session: 1
+Area: ALL
+Num Trials: 414
+Win trials: 276
+Loss trials: 138
+
+Logistic Regression Coefficients:
+
+AUC: 0.7223
+Timestamp: 27-Jun-2025 21:13:18
